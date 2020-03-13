@@ -30,12 +30,12 @@
         {
             System.Windows.Forms.MenuStrip menuStrip1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle115 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle116 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle117 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle118 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle119 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle120 = new System.Windows.Forms.DataGridViewCellStyle();
             this.campanhasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.adicionarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -107,21 +107,24 @@
             menuStrip1.AutoSize = false;
             menuStrip1.BackColor = System.Drawing.Color.Transparent;
             menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            menuStrip1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            menuStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.campanhasToolStripMenuItem,
             this.marcasToolStripMenuItem,
             this.usuarioToolStripMenuItem});
             menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
             menuStrip1.Location = new System.Drawing.Point(12, 75);
+            menuStrip1.MdiWindowListItem = this.campanhasToolStripMenuItem;
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new System.Drawing.Size(161, 570);
+            menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            menuStrip1.Size = new System.Drawing.Size(159, 570);
             menuStrip1.TabIndex = 2;
-            menuStrip1.Text = "menuStrip1";
+            menuStrip1.Text = "Menu";
             // 
             // campanhasToolStripMenuItem
             // 
+            this.campanhasToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.Dialog;
             this.campanhasToolStripMenuItem.Checked = true;
             this.campanhasToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.campanhasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -134,13 +137,14 @@
             this.campanhasToolStripMenuItem.Name = "campanhasToolStripMenuItem";
             this.campanhasToolStripMenuItem.Size = new System.Drawing.Size(95, 21);
             this.campanhasToolStripMenuItem.Text = "Campanhas";
+            this.campanhasToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // adicionarToolStripMenuItem1
             // 
             this.adicionarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.adicionarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("adicionarToolStripMenuItem1.Image")));
             this.adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
-            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
             this.adicionarToolStripMenuItem1.Text = "Adicionar";
             // 
             // editarToolStripMenuItem1
@@ -148,7 +152,7 @@
             this.editarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.editarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("editarToolStripMenuItem1.Image")));
             this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
-            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
             this.editarToolStripMenuItem1.Text = "Editar";
             // 
             // pequisarToolStripMenuItem
@@ -156,7 +160,7 @@
             this.pequisarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pequisarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pequisarToolStripMenuItem.Image")));
             this.pequisarToolStripMenuItem.Name = "pequisarToolStripMenuItem";
-            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.pequisarToolStripMenuItem.Text = "Pequisar";
             // 
             // deletarToolStripMenuItem2
@@ -164,7 +168,7 @@
             this.deletarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.deletarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("deletarToolStripMenuItem2.Image")));
             this.deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
-            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(135, 22);
             this.deletarToolStripMenuItem2.Text = "Deletar";
             // 
             // marcasToolStripMenuItem
@@ -179,6 +183,7 @@
             this.marcasToolStripMenuItem.Name = "marcasToolStripMenuItem";
             this.marcasToolStripMenuItem.Size = new System.Drawing.Size(66, 21);
             this.marcasToolStripMenuItem.Text = "Marcas";
+            this.marcasToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // adicionarToolStripMenuItem2
             // 
@@ -221,6 +226,7 @@
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
             this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(69, 21);
             this.usuarioToolStripMenuItem.Text = "Usuário";
+            this.usuarioToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // alterarDadosToolStripMenuItem
             // 
@@ -228,7 +234,7 @@
             this.alterarDadosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("alterarDadosToolStripMenuItem.Image")));
             this.alterarDadosToolStripMenuItem.Name = "alterarDadosToolStripMenuItem";
             this.alterarDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.alterarDadosToolStripMenuItem.Text = "Alterar Dados";
+            this.alterarDadosToolStripMenuItem.Text = "Alterar";
             // 
             // pictureBox1
             // 
@@ -297,11 +303,11 @@
             // labelMesAtual
             // 
             this.labelMesAtual.AutoSize = true;
-            this.labelMesAtual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMesAtual.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMesAtual.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelMesAtual.Location = new System.Drawing.Point(76, 15);
             this.labelMesAtual.Name = "labelMesAtual";
-            this.labelMesAtual.Size = new System.Drawing.Size(72, 16);
+            this.labelMesAtual.Size = new System.Drawing.Size(66, 17);
             this.labelMesAtual.TabIndex = 1;
             this.labelMesAtual.Text = "MesAtual";
             // 
@@ -356,9 +362,9 @@
             // Marca
             // 
             this.Marca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle7.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle7.NullValue")));
-            this.Marca.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle115.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle115.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle115.NullValue")));
+            this.Marca.DefaultCellStyle = dataGridViewCellStyle115;
             this.Marca.Frozen = true;
             this.Marca.HeaderText = "Marca";
             this.Marca.Name = "Marca";
@@ -367,11 +373,11 @@
             // AcoesPorMes
             // 
             this.AcoesPorMes.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.Format = "N2";
-            dataGridViewCellStyle8.NullValue = null;
-            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle116.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle116.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle116.Format = "N2";
+            dataGridViewCellStyle116.NullValue = null;
+            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle116;
             this.AcoesPorMes.Frozen = true;
             this.AcoesPorMes.HeaderText = "Ações por Mês";
             this.AcoesPorMes.Name = "AcoesPorMes";
@@ -379,17 +385,17 @@
             // 
             // Realizadas
             // 
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle117.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle117.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle117;
             this.Realizadas.HeaderText = "Realizadas";
             this.Realizadas.Name = "Realizadas";
             // 
             // Concluido
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Concluido.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle118.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle118.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Concluido.DefaultCellStyle = dataGridViewCellStyle118;
             this.Concluido.HeaderText = "% Concluído";
             this.Concluido.Name = "Concluido";
             // 
@@ -419,11 +425,11 @@
             // labelConcluidoDashboard
             // 
             this.labelConcluidoDashboard.AutoSize = true;
-            this.labelConcluidoDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelConcluidoDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelConcluidoDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelConcluidoDashboard.Location = new System.Drawing.Point(19, 15);
+            this.labelConcluidoDashboard.Location = new System.Drawing.Point(20, 14);
             this.labelConcluidoDashboard.Name = "labelConcluidoDashboard";
-            this.labelConcluidoDashboard.Size = new System.Drawing.Size(94, 16);
+            this.labelConcluidoDashboard.Size = new System.Drawing.Size(86, 17);
             this.labelConcluidoDashboard.TabIndex = 1;
             this.labelConcluidoDashboard.Text = "% Concluído";
             this.labelConcluidoDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -440,11 +446,11 @@
             // labelRealizadasDashboard
             // 
             this.labelRealizadasDashboard.AutoSize = true;
-            this.labelRealizadasDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRealizadasDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRealizadasDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelRealizadasDashboard.Location = new System.Drawing.Point(18, 15);
+            this.labelRealizadasDashboard.Location = new System.Drawing.Point(24, 14);
             this.labelRealizadasDashboard.Name = "labelRealizadasDashboard";
-            this.labelRealizadasDashboard.Size = new System.Drawing.Size(87, 16);
+            this.labelRealizadasDashboard.Size = new System.Drawing.Size(78, 17);
             this.labelRealizadasDashboard.TabIndex = 1;
             this.labelRealizadasDashboard.Text = "Realizadas";
             this.labelRealizadasDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -461,11 +467,11 @@
             // labelAcoesMesDashboard
             // 
             this.labelAcoesMesDashboard.AutoSize = true;
-            this.labelAcoesMesDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAcoesMesDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAcoesMesDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelAcoesMesDashboard.Location = new System.Drawing.Point(8, 15);
+            this.labelAcoesMesDashboard.Location = new System.Drawing.Point(12, 14);
             this.labelAcoesMesDashboard.Name = "labelAcoesMesDashboard";
-            this.labelAcoesMesDashboard.Size = new System.Drawing.Size(112, 16);
+            this.labelAcoesMesDashboard.Size = new System.Drawing.Size(102, 17);
             this.labelAcoesMesDashboard.TabIndex = 1;
             this.labelAcoesMesDashboard.Text = "Ações por Mês";
             this.labelAcoesMesDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -482,11 +488,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label7.Location = new System.Drawing.Point(37, 15);
+            this.label7.Location = new System.Drawing.Point(37, 14);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 16);
+            this.label7.Size = new System.Drawing.Size(47, 17);
             this.label7.TabIndex = 1;
             this.label7.Text = "Marca";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -547,17 +553,17 @@
             // 
             // dataGridViewTextBoxColumn2
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle119.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
+            dataGridViewCellStyle119.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle119;
             this.dataGridViewTextBoxColumn2.HeaderText = "Mês";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle120.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle120.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle120;
             this.dataGridViewTextBoxColumn3.HeaderText = "% Concluído";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
@@ -625,7 +631,9 @@
             this.Controls.Add(menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(942, 695);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(942, 695);
             this.Name = "TelaPrincipal";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
