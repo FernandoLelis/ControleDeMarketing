@@ -40,24 +40,19 @@
             this.labelPorcentagemMesAtual = new System.Windows.Forms.Label();
             this.labelCloncuido = new System.Windows.Forms.Label();
             this.groupBoxMenu = new System.Windows.Forms.GroupBox();
-            this.groupBoxUltimosPostFundo = new System.Windows.Forms.GroupBox();
-            this.groupBoxUltimosPostTitulo = new System.Windows.Forms.GroupBox();
-            this.labelUltimosPosts = new System.Windows.Forms.Label();
-            this.groupBoxUltimosPosts01 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.labelDataPost = new System.Windows.Forms.Label();
-            this.labelDescricaoUltimosPosts = new System.Windows.Forms.Label();
-            this.textBoxDescricao = new System.Windows.Forms.TextBox();
-            this.labelMarcaUltimosPosts = new System.Windows.Forms.Label();
-            this.labelMidiasUltimosPosts = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.labelMarcaDashboard = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.labelAcoesMesDashboard = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.labelRealizadasDashboard = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.labelConcluidoDashboard = new System.Windows.Forms.Label();
+            this.groupBoxUltimosPostFundo = new System.Windows.Forms.GroupBox();
             this.Concluido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Realizadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AcoesPorMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -66,11 +61,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBoxMesAtualFundo.SuspendLayout();
             this.groupBoxMesAtualTitulo.SuspendLayout();
-            this.groupBoxUltimosPostFundo.SuspendLayout();
-            this.groupBoxUltimosPostTitulo.SuspendLayout();
-            this.groupBoxUltimosPosts01.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -179,205 +176,6 @@
             this.groupBoxMenu.TabStop = false;
             this.groupBoxMenu.Text = "Menu";
             // 
-            // groupBoxUltimosPostFundo
-            // 
-            this.groupBoxUltimosPostFundo.Controls.Add(this.groupBoxUltimosPostTitulo);
-            this.groupBoxUltimosPostFundo.Controls.Add(this.groupBoxUltimosPosts01);
-            this.groupBoxUltimosPostFundo.Controls.Add(this.groupBox2);
-            this.groupBoxUltimosPostFundo.Location = new System.Drawing.Point(694, 186);
-            this.groupBoxUltimosPostFundo.Name = "groupBoxUltimosPostFundo";
-            this.groupBoxUltimosPostFundo.Size = new System.Drawing.Size(220, 321);
-            this.groupBoxUltimosPostFundo.TabIndex = 0;
-            this.groupBoxUltimosPostFundo.TabStop = false;
-            // 
-            // groupBoxUltimosPostTitulo
-            // 
-            this.groupBoxUltimosPostTitulo.Controls.Add(this.labelUltimosPosts);
-            this.groupBoxUltimosPostTitulo.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxUltimosPostTitulo.Name = "groupBoxUltimosPostTitulo";
-            this.groupBoxUltimosPostTitulo.Size = new System.Drawing.Size(220, 40);
-            this.groupBoxUltimosPostTitulo.TabIndex = 0;
-            this.groupBoxUltimosPostTitulo.TabStop = false;
-            // 
-            // labelUltimosPosts
-            // 
-            this.labelUltimosPosts.AutoSize = true;
-            this.labelUltimosPosts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUltimosPosts.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelUltimosPosts.Location = new System.Drawing.Point(61, 16);
-            this.labelUltimosPosts.Name = "labelUltimosPosts";
-            this.labelUltimosPosts.Size = new System.Drawing.Size(103, 16);
-            this.labelUltimosPosts.TabIndex = 1;
-            this.labelUltimosPosts.Text = "Últimos Posts";
-            // 
-            // groupBoxUltimosPosts01
-            // 
-            this.groupBoxUltimosPosts01.Controls.Add(this.label1);
-            this.groupBoxUltimosPosts01.Controls.Add(this.labelDataPost);
-            this.groupBoxUltimosPosts01.Controls.Add(this.labelDescricaoUltimosPosts);
-            this.groupBoxUltimosPosts01.Controls.Add(this.textBoxDescricao);
-            this.groupBoxUltimosPosts01.Controls.Add(this.labelMarcaUltimosPosts);
-            this.groupBoxUltimosPosts01.Controls.Add(this.labelMidiasUltimosPosts);
-            this.groupBoxUltimosPosts01.Location = new System.Drawing.Point(0, 32);
-            this.groupBoxUltimosPosts01.Name = "groupBoxUltimosPosts01";
-            this.groupBoxUltimosPosts01.Size = new System.Drawing.Size(220, 148);
-            this.groupBoxUltimosPosts01.TabIndex = 0;
-            this.groupBoxUltimosPosts01.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(54, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "K-array";
-            // 
-            // labelDataPost
-            // 
-            this.labelDataPost.AutoSize = true;
-            this.labelDataPost.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDataPost.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelDataPost.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.labelDataPost.Location = new System.Drawing.Point(4, 14);
-            this.labelDataPost.Name = "labelDataPost";
-            this.labelDataPost.Size = new System.Drawing.Size(116, 16);
-            this.labelDataPost.TabIndex = 1;
-            this.labelDataPost.Text = "25 Janeiro 2020";
-            // 
-            // labelDescricaoUltimosPosts
-            // 
-            this.labelDescricaoUltimosPosts.AutoSize = true;
-            this.labelDescricaoUltimosPosts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDescricaoUltimosPosts.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelDescricaoUltimosPosts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.labelDescricaoUltimosPosts.Location = new System.Drawing.Point(4, 82);
-            this.labelDescricaoUltimosPosts.Name = "labelDescricaoUltimosPosts";
-            this.labelDescricaoUltimosPosts.Size = new System.Drawing.Size(83, 16);
-            this.labelDescricaoUltimosPosts.TabIndex = 1;
-            this.labelDescricaoUltimosPosts.Text = "Descrição:";
-            // 
-            // textBoxDescricao
-            // 
-            this.textBoxDescricao.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBoxDescricao.Enabled = false;
-            this.textBoxDescricao.Location = new System.Drawing.Point(6, 92);
-            this.textBoxDescricao.Multiline = true;
-            this.textBoxDescricao.Name = "textBoxDescricao";
-            this.textBoxDescricao.Size = new System.Drawing.Size(208, 50);
-            this.textBoxDescricao.TabIndex = 2;
-            // 
-            // labelMarcaUltimosPosts
-            // 
-            this.labelMarcaUltimosPosts.AutoSize = true;
-            this.labelMarcaUltimosPosts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMarcaUltimosPosts.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelMarcaUltimosPosts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.labelMarcaUltimosPosts.Location = new System.Drawing.Point(4, 60);
-            this.labelMarcaUltimosPosts.Name = "labelMarcaUltimosPosts";
-            this.labelMarcaUltimosPosts.Size = new System.Drawing.Size(55, 16);
-            this.labelMarcaUltimosPosts.TabIndex = 1;
-            this.labelMarcaUltimosPosts.Text = "Marca:";
-            // 
-            // labelMidiasUltimosPosts
-            // 
-            this.labelMidiasUltimosPosts.AutoSize = true;
-            this.labelMidiasUltimosPosts.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMidiasUltimosPosts.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelMidiasUltimosPosts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.labelMidiasUltimosPosts.Location = new System.Drawing.Point(4, 38);
-            this.labelMidiasUltimosPosts.Name = "labelMidiasUltimosPosts";
-            this.labelMidiasUltimosPosts.Size = new System.Drawing.Size(179, 16);
-            this.labelMidiasUltimosPosts.TabIndex = 1;
-            this.labelMidiasUltimosPosts.Text = "Facebook, Instagram, E-Mail";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Location = new System.Drawing.Point(0, 172);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(220, 148);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(54, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "K-array";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Location = new System.Drawing.Point(4, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "25 Janeiro 2020";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(4, 82);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Descrição:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(6, 92);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(208, 50);
-            this.textBox1.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label5.Location = new System.Drawing.Point(4, 60);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 16);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Marca:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Location = new System.Drawing.Point(4, 38);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(179, 16);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Facebook, Instagram, E-Mail";
-            // 
             // dataGridView
             // 
             this.dataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -387,6 +185,7 @@
             this.dataGridView.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dataGridView.ColumnHeadersVisible = false;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Marca,
             this.AcoesPorMes,
@@ -394,13 +193,140 @@
             this.Concluido});
             this.dataGridView.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dataGridView.Location = new System.Drawing.Point(176, 75);
+            this.dataGridView.Location = new System.Drawing.Point(3, 41);
             this.dataGridView.MultiSelect = false;
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dataGridView.RowHeadersVisible = false;
-            this.dataGridView.Size = new System.Drawing.Size(512, 431);
+            this.dataGridView.Size = new System.Drawing.Size(506, 530);
             this.dataGridView.TabIndex = 11;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.dataGridView);
+            this.groupBox1.Controls.Add(this.groupBox7);
+            this.groupBox1.Controls.Add(this.groupBox6);
+            this.groupBox1.Controls.Add(this.groupBox5);
+            this.groupBox1.Controls.Add(this.groupBox4);
+            this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Location = new System.Drawing.Point(176, 68);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(512, 577);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.labelMarcaDashboard);
+            this.groupBox3.Location = new System.Drawing.Point(0, 0);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(128, 40);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            // 
+            // labelMarcaDashboard
+            // 
+            this.labelMarcaDashboard.AutoSize = true;
+            this.labelMarcaDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMarcaDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelMarcaDashboard.Location = new System.Drawing.Point(37, 15);
+            this.labelMarcaDashboard.Name = "labelMarcaDashboard";
+            this.labelMarcaDashboard.Size = new System.Drawing.Size(51, 16);
+            this.labelMarcaDashboard.TabIndex = 1;
+            this.labelMarcaDashboard.Text = "Marca";
+            this.labelMarcaDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Location = new System.Drawing.Point(0, 0);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(128, 40);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label7.Location = new System.Drawing.Point(37, 15);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 16);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Marca";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.labelAcoesMesDashboard);
+            this.groupBox5.Location = new System.Drawing.Point(127, 0);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(128, 40);
+            this.groupBox5.TabIndex = 0;
+            this.groupBox5.TabStop = false;
+            // 
+            // labelAcoesMesDashboard
+            // 
+            this.labelAcoesMesDashboard.AutoSize = true;
+            this.labelAcoesMesDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAcoesMesDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelAcoesMesDashboard.Location = new System.Drawing.Point(8, 15);
+            this.labelAcoesMesDashboard.Name = "labelAcoesMesDashboard";
+            this.labelAcoesMesDashboard.Size = new System.Drawing.Size(112, 16);
+            this.labelAcoesMesDashboard.TabIndex = 1;
+            this.labelAcoesMesDashboard.Text = "Ações por Mês";
+            this.labelAcoesMesDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.labelRealizadasDashboard);
+            this.groupBox6.Location = new System.Drawing.Point(252, 0);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(128, 40);
+            this.groupBox6.TabIndex = 0;
+            this.groupBox6.TabStop = false;
+            // 
+            // labelRealizadasDashboard
+            // 
+            this.labelRealizadasDashboard.AutoSize = true;
+            this.labelRealizadasDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRealizadasDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelRealizadasDashboard.Location = new System.Drawing.Point(19, 15);
+            this.labelRealizadasDashboard.Name = "labelRealizadasDashboard";
+            this.labelRealizadasDashboard.Size = new System.Drawing.Size(87, 16);
+            this.labelRealizadasDashboard.TabIndex = 1;
+            this.labelRealizadasDashboard.Text = "Realizadas";
+            this.labelRealizadasDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.labelConcluidoDashboard);
+            this.groupBox7.Location = new System.Drawing.Point(378, 0);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(134, 40);
+            this.groupBox7.TabIndex = 0;
+            this.groupBox7.TabStop = false;
+            // 
+            // labelConcluidoDashboard
+            // 
+            this.labelConcluidoDashboard.AutoSize = true;
+            this.labelConcluidoDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelConcluidoDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelConcluidoDashboard.Location = new System.Drawing.Point(19, 15);
+            this.labelConcluidoDashboard.Name = "labelConcluidoDashboard";
+            this.labelConcluidoDashboard.Size = new System.Drawing.Size(94, 16);
+            this.labelConcluidoDashboard.TabIndex = 1;
+            this.labelConcluidoDashboard.Text = "% Concluído";
+            this.labelConcluidoDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBoxUltimosPostFundo
+            // 
+            this.groupBoxUltimosPostFundo.Location = new System.Drawing.Point(694, 172);
+            this.groupBoxUltimosPostFundo.Name = "groupBoxUltimosPostFundo";
+            this.groupBoxUltimosPostFundo.Size = new System.Drawing.Size(220, 473);
+            this.groupBoxUltimosPostFundo.TabIndex = 0;
+            this.groupBoxUltimosPostFundo.TabStop = false;
             // 
             // Concluido
             // 
@@ -430,15 +356,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(926, 520);
-            this.Controls.Add(this.dataGridView);
+            this.ClientSize = new System.Drawing.Size(926, 657);
             this.Controls.Add(this.groupBoxMenu);
-            this.Controls.Add(this.groupBoxUltimosPostFundo);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxMesAtualFundo);
             this.Controls.Add(this.labelDepartamentoUsuario);
             this.Controls.Add(this.labelNomeUsuario);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.groupBoxUltimosPostFundo);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -451,14 +377,18 @@
             this.groupBoxMesAtualFundo.PerformLayout();
             this.groupBoxMesAtualTitulo.ResumeLayout(false);
             this.groupBoxMesAtualTitulo.PerformLayout();
-            this.groupBoxUltimosPostFundo.ResumeLayout(false);
-            this.groupBoxUltimosPostTitulo.ResumeLayout(false);
-            this.groupBoxUltimosPostTitulo.PerformLayout();
-            this.groupBoxUltimosPosts01.ResumeLayout(false);
-            this.groupBoxUltimosPosts01.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -476,24 +406,19 @@
         private System.Windows.Forms.Label labelPorcentagemMesAtual;
         private System.Windows.Forms.Label labelCloncuido;
         private System.Windows.Forms.Label labelMesAtual;
-        private System.Windows.Forms.GroupBox groupBoxUltimosPostFundo;
-        private System.Windows.Forms.GroupBox groupBoxUltimosPostTitulo;
-        private System.Windows.Forms.Label labelUltimosPosts;
-        private System.Windows.Forms.GroupBox groupBoxUltimosPosts01;
-        private System.Windows.Forms.Label labelDataPost;
-        private System.Windows.Forms.Label labelMidiasUltimosPosts;
-        private System.Windows.Forms.Label labelMarcaUltimosPosts;
-        private System.Windows.Forms.Label labelDescricaoUltimosPosts;
-        private System.Windows.Forms.TextBox textBoxDescricao;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Label labelConcluidoDashboard;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label labelRealizadasDashboard;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label labelAcoesMesDashboard;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label labelMarcaDashboard;
+        private System.Windows.Forms.GroupBox groupBoxUltimosPostFundo;
         private System.Windows.Forms.DataGridViewImageColumn Marca;
         private System.Windows.Forms.DataGridViewTextBoxColumn AcoesPorMes;
         private System.Windows.Forms.DataGridViewTextBoxColumn Realizadas;
