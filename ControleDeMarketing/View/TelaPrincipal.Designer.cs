@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.labelNomeUsuario = new System.Windows.Forms.Label();
@@ -65,10 +65,13 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBoxAddAcao = new System.Windows.Forms.PictureBox();
+            this.labelAddAcao = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBoxMesAtualFundo.SuspendLayout();
             this.groupBoxMesAtualTitulo.SuspendLayout();
+            this.groupBoxMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -78,6 +81,7 @@
             this.groupBox7.SuspendLayout();
             this.groupBoxUltimosPostFundo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddAcao)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -179,12 +183,13 @@
             // 
             // groupBoxMenu
             // 
+            this.groupBoxMenu.Controls.Add(this.labelAddAcao);
+            this.groupBoxMenu.Controls.Add(this.pictureBoxAddAcao);
             this.groupBoxMenu.Location = new System.Drawing.Point(12, 68);
             this.groupBoxMenu.Name = "groupBoxMenu";
-            this.groupBoxMenu.Size = new System.Drawing.Size(158, 571);
+            this.groupBoxMenu.Size = new System.Drawing.Size(158, 51);
             this.groupBoxMenu.TabIndex = 0;
             this.groupBoxMenu.TabStop = false;
-            this.groupBoxMenu.Text = "Menu";
             // 
             // dataGridView
             // 
@@ -343,9 +348,9 @@
             // Marca
             // 
             this.Marca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle21.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle21.NullValue")));
-            this.Marca.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle7.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle7.NullValue")));
+            this.Marca.DefaultCellStyle = dataGridViewCellStyle7;
             this.Marca.Frozen = true;
             this.Marca.HeaderText = "Marca";
             this.Marca.Name = "Marca";
@@ -354,11 +359,11 @@
             // AcoesPorMes
             // 
             this.AcoesPorMes.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.Format = "N2";
-            dataGridViewCellStyle22.NullValue = null;
-            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.Format = "N2";
+            dataGridViewCellStyle8.NullValue = null;
+            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle8;
             this.AcoesPorMes.Frozen = true;
             this.AcoesPorMes.HeaderText = "Ações por Mês";
             this.AcoesPorMes.Name = "AcoesPorMes";
@@ -366,17 +371,17 @@
             // 
             // Realizadas
             // 
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle9;
             this.Realizadas.HeaderText = "Realizadas";
             this.Realizadas.Name = "Realizadas";
             // 
             // Concluido
             // 
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Concluido.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Concluido.DefaultCellStyle = dataGridViewCellStyle10;
             this.Concluido.HeaderText = "% Concluído";
             this.Concluido.Name = "Concluido";
             // 
@@ -406,19 +411,41 @@
             // 
             // dataGridViewTextBoxColumn2
             // 
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridViewTextBoxColumn2.HeaderText = "Mês";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridViewTextBoxColumn3.HeaderText = "% Concluído";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // pictureBoxAddAcao
+            // 
+            this.pictureBoxAddAcao.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAddAcao.Image")));
+            this.pictureBoxAddAcao.Location = new System.Drawing.Point(4, 11);
+            this.pictureBoxAddAcao.Name = "pictureBoxAddAcao";
+            this.pictureBoxAddAcao.Size = new System.Drawing.Size(44, 34);
+            this.pictureBoxAddAcao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAddAcao.TabIndex = 0;
+            this.pictureBoxAddAcao.TabStop = false;
+            // 
+            // labelAddAcao
+            // 
+            this.labelAddAcao.AutoSize = true;
+            this.labelAddAcao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAddAcao.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelAddAcao.Location = new System.Drawing.Point(49, 15);
+            this.labelAddAcao.Name = "labelAddAcao";
+            this.labelAddAcao.Size = new System.Drawing.Size(102, 24);
+            this.labelAddAcao.TabIndex = 1;
+            this.labelAddAcao.Text = "Add Ação";
+            this.labelAddAcao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // TelaPrincipal
             // 
@@ -446,6 +473,8 @@
             this.groupBoxMesAtualFundo.PerformLayout();
             this.groupBoxMesAtualTitulo.ResumeLayout(false);
             this.groupBoxMesAtualTitulo.PerformLayout();
+            this.groupBoxMenu.ResumeLayout(false);
+            this.groupBoxMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
@@ -460,6 +489,7 @@
             this.groupBox7.PerformLayout();
             this.groupBoxUltimosPostFundo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddAcao)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -497,5 +527,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.PictureBox pictureBoxAddAcao;
+        private System.Windows.Forms.Label labelAddAcao;
     }
 }
