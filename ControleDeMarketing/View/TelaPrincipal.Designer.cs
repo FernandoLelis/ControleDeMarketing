@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.labelNomeUsuario = new System.Windows.Forms.Label();
@@ -53,10 +54,10 @@
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.labelConcluidoDashboard = new System.Windows.Forms.Label();
             this.groupBoxUltimosPostFundo = new System.Windows.Forms.GroupBox();
-            this.Concluido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Realizadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AcoesPorMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Marca = new System.Windows.Forms.DataGridViewImageColumn();
+            this.AcoesPorMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Realizadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Concluido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBoxMesAtualFundo.SuspendLayout();
@@ -241,7 +242,7 @@
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Location = new System.Drawing.Point(0, 0);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(128, 40);
+            this.groupBox4.Size = new System.Drawing.Size(130, 40);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             // 
@@ -260,7 +261,7 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.labelAcoesMesDashboard);
-            this.groupBox5.Location = new System.Drawing.Point(127, 0);
+            this.groupBox5.Location = new System.Drawing.Point(129, 0);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(128, 40);
             this.groupBox5.TabIndex = 0;
@@ -281,9 +282,9 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.labelRealizadasDashboard);
-            this.groupBox6.Location = new System.Drawing.Point(252, 0);
+            this.groupBox6.Location = new System.Drawing.Point(256, 0);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(128, 40);
+            this.groupBox6.Size = new System.Drawing.Size(127, 40);
             this.groupBox6.TabIndex = 0;
             this.groupBox6.TabStop = false;
             // 
@@ -292,7 +293,7 @@
             this.labelRealizadasDashboard.AutoSize = true;
             this.labelRealizadasDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRealizadasDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelRealizadasDashboard.Location = new System.Drawing.Point(19, 15);
+            this.labelRealizadasDashboard.Location = new System.Drawing.Point(18, 15);
             this.labelRealizadasDashboard.Name = "labelRealizadasDashboard";
             this.labelRealizadasDashboard.Size = new System.Drawing.Size(87, 16);
             this.labelRealizadasDashboard.TabIndex = 1;
@@ -302,9 +303,9 @@
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.labelConcluidoDashboard);
-            this.groupBox7.Location = new System.Drawing.Point(378, 0);
+            this.groupBox7.Location = new System.Drawing.Point(382, 0);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(134, 40);
+            this.groupBox7.Size = new System.Drawing.Size(130, 40);
             this.groupBox7.TabIndex = 0;
             this.groupBox7.TabStop = false;
             // 
@@ -328,21 +329,6 @@
             this.groupBoxUltimosPostFundo.TabIndex = 0;
             this.groupBoxUltimosPostFundo.TabStop = false;
             // 
-            // Concluido
-            // 
-            this.Concluido.HeaderText = "% Concluído";
-            this.Concluido.Name = "Concluido";
-            // 
-            // Realizadas
-            // 
-            this.Realizadas.HeaderText = "Realizadas";
-            this.Realizadas.Name = "Realizadas";
-            // 
-            // AcoesPorMes
-            // 
-            this.AcoesPorMes.HeaderText = "Ações por Mês";
-            this.AcoesPorMes.Name = "AcoesPorMes";
-            // 
             // Marca
             // 
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
@@ -350,6 +336,23 @@
             this.Marca.DefaultCellStyle = dataGridViewCellStyle1;
             this.Marca.HeaderText = "Marca";
             this.Marca.Name = "Marca";
+            // 
+            // AcoesPorMes
+            // 
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle2;
+            this.AcoesPorMes.HeaderText = "Ações por Mês";
+            this.AcoesPorMes.Name = "AcoesPorMes";
+            // 
+            // Realizadas
+            // 
+            this.Realizadas.HeaderText = "Realizadas";
+            this.Realizadas.Name = "Realizadas";
+            // 
+            // Concluido
+            // 
+            this.Concluido.HeaderText = "% Concluído";
+            this.Concluido.Name = "Concluido";
             // 
             // TelaPrincipal
             // 
