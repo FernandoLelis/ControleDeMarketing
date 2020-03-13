@@ -28,14 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.MenuStrip menuStrip1;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.campanhasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pequisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deletarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.marcasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pesquisarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deletarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.labelNomeUsuario = new System.Windows.Forms.Label();
@@ -73,19 +85,8 @@
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pesquisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deletarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.campanhasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.adicionarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pequisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deletarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.marcasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.adicionarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.editarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pesquisarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.deletarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.alterarDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             menuStrip1 = new System.Windows.Forms.MenuStrip();
+            menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBoxMesAtualFundo.SuspendLayout();
@@ -99,8 +100,133 @@
             this.groupBox3.SuspendLayout();
             this.groupBoxUltimosPostFundo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            menuStrip1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.AutoSize = false;
+            menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            menuStrip1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.campanhasToolStripMenuItem,
+            this.marcasToolStripMenuItem,
+            this.usuarioToolStripMenuItem});
+            menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
+            menuStrip1.Location = new System.Drawing.Point(12, 75);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new System.Drawing.Size(161, 570);
+            menuStrip1.TabIndex = 2;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // campanhasToolStripMenuItem
+            // 
+            this.campanhasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adicionarToolStripMenuItem1,
+            this.editarToolStripMenuItem1,
+            this.pequisarToolStripMenuItem,
+            this.deletarToolStripMenuItem2});
+            this.campanhasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campanhasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.campanhasToolStripMenuItem.Name = "campanhasToolStripMenuItem";
+            this.campanhasToolStripMenuItem.Size = new System.Drawing.Size(95, 21);
+            this.campanhasToolStripMenuItem.Text = "Campanhas";
+            // 
+            // adicionarToolStripMenuItem1
+            // 
+            this.adicionarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.adicionarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("adicionarToolStripMenuItem1.Image")));
+            this.adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
+            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem1.Text = "Adicionar";
+            // 
+            // editarToolStripMenuItem1
+            // 
+            this.editarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.editarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("editarToolStripMenuItem1.Image")));
+            this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem1.Text = "Editar";
+            // 
+            // pequisarToolStripMenuItem
+            // 
+            this.pequisarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pequisarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pequisarToolStripMenuItem.Image")));
+            this.pequisarToolStripMenuItem.Name = "pequisarToolStripMenuItem";
+            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pequisarToolStripMenuItem.Text = "Pequisar";
+            // 
+            // deletarToolStripMenuItem2
+            // 
+            this.deletarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.deletarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("deletarToolStripMenuItem2.Image")));
+            this.deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
+            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem2.Text = "Deletar";
+            // 
+            // marcasToolStripMenuItem
+            // 
+            this.marcasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adicionarToolStripMenuItem2,
+            this.editarToolStripMenuItem2,
+            this.pesquisarToolStripMenuItem2,
+            this.deletarToolStripMenuItem3});
+            this.marcasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marcasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.marcasToolStripMenuItem.Name = "marcasToolStripMenuItem";
+            this.marcasToolStripMenuItem.Size = new System.Drawing.Size(66, 21);
+            this.marcasToolStripMenuItem.Text = "Marcas";
+            // 
+            // adicionarToolStripMenuItem2
+            // 
+            this.adicionarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.adicionarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("adicionarToolStripMenuItem2.Image")));
+            this.adicionarToolStripMenuItem2.Name = "adicionarToolStripMenuItem2";
+            this.adicionarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem2.Text = "Adicionar";
+            // 
+            // editarToolStripMenuItem2
+            // 
+            this.editarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.editarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("editarToolStripMenuItem2.Image")));
+            this.editarToolStripMenuItem2.Name = "editarToolStripMenuItem2";
+            this.editarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem2.Text = "Editar";
+            // 
+            // pesquisarToolStripMenuItem2
+            // 
+            this.pesquisarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pesquisarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("pesquisarToolStripMenuItem2.Image")));
+            this.pesquisarToolStripMenuItem2.Name = "pesquisarToolStripMenuItem2";
+            this.pesquisarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.pesquisarToolStripMenuItem2.Text = "Pesquisar";
+            // 
+            // deletarToolStripMenuItem3
+            // 
+            this.deletarToolStripMenuItem3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.deletarToolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("deletarToolStripMenuItem3.Image")));
+            this.deletarToolStripMenuItem3.Name = "deletarToolStripMenuItem3";
+            this.deletarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem3.Text = "Deletar";
+            // 
+            // usuarioToolStripMenuItem
+            // 
+            this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.alterarDadosToolStripMenuItem});
+            this.usuarioToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usuarioToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(69, 21);
+            this.usuarioToolStripMenuItem.Text = "Usuário";
+            // 
+            // alterarDadosToolStripMenuItem
+            // 
+            this.alterarDadosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.alterarDadosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("alterarDadosToolStripMenuItem.Image")));
+            this.alterarDadosToolStripMenuItem.Name = "alterarDadosToolStripMenuItem";
+            this.alterarDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alterarDadosToolStripMenuItem.Text = "Alterar Dados";
             // 
             // pictureBox1
             // 
@@ -228,9 +354,9 @@
             // Marca
             // 
             this.Marca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle7.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle7.NullValue")));
-            this.Marca.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle1.NullValue")));
+            this.Marca.DefaultCellStyle = dataGridViewCellStyle1;
             this.Marca.Frozen = true;
             this.Marca.HeaderText = "Marca";
             this.Marca.Name = "Marca";
@@ -239,11 +365,11 @@
             // AcoesPorMes
             // 
             this.AcoesPorMes.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.Format = "N2";
-            dataGridViewCellStyle8.NullValue = null;
-            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle2;
             this.AcoesPorMes.Frozen = true;
             this.AcoesPorMes.HeaderText = "Ações por Mês";
             this.AcoesPorMes.Name = "AcoesPorMes";
@@ -251,17 +377,17 @@
             // 
             // Realizadas
             // 
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle3;
             this.Realizadas.HeaderText = "Realizadas";
             this.Realizadas.Name = "Realizadas";
             // 
             // Concluido
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Concluido.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Concluido.DefaultCellStyle = dataGridViewCellStyle4;
             this.Concluido.HeaderText = "% Concluído";
             this.Concluido.Name = "Concluido";
             // 
@@ -419,17 +545,17 @@
             // 
             // dataGridViewTextBoxColumn2
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewTextBoxColumn2.HeaderText = "Mês";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewTextBoxColumn3.HeaderText = "% Concluído";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
@@ -481,123 +607,6 @@
             this.deletarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.deletarToolStripMenuItem.Text = "Deletar";
             // 
-            // menuStrip1
-            // 
-            menuStrip1.AutoSize = false;
-            menuStrip1.BackColor = System.Drawing.Color.Transparent;
-            menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            menuStrip1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
-            menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.campanhasToolStripMenuItem,
-            this.marcasToolStripMenuItem,
-            this.usuarioToolStripMenuItem});
-            menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
-            menuStrip1.Location = new System.Drawing.Point(12, 75);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new System.Drawing.Size(161, 570);
-            menuStrip1.TabIndex = 2;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // campanhasToolStripMenuItem
-            // 
-            this.campanhasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adicionarToolStripMenuItem1,
-            this.editarToolStripMenuItem1,
-            this.pequisarToolStripMenuItem,
-            this.deletarToolStripMenuItem2});
-            this.campanhasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campanhasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.campanhasToolStripMenuItem.Name = "campanhasToolStripMenuItem";
-            this.campanhasToolStripMenuItem.Size = new System.Drawing.Size(95, 21);
-            this.campanhasToolStripMenuItem.Text = "Campanhas";
-            // 
-            // adicionarToolStripMenuItem1
-            // 
-            this.adicionarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
-            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.adicionarToolStripMenuItem1.Text = "Adicionar";
-            // 
-            // editarToolStripMenuItem1
-            // 
-            this.editarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
-            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.editarToolStripMenuItem1.Text = "Editar";
-            // 
-            // pequisarToolStripMenuItem
-            // 
-            this.pequisarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pequisarToolStripMenuItem.Name = "pequisarToolStripMenuItem";
-            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pequisarToolStripMenuItem.Text = "Pequisar";
-            // 
-            // deletarToolStripMenuItem2
-            // 
-            this.deletarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
-            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.deletarToolStripMenuItem2.Text = "Deletar";
-            // 
-            // marcasToolStripMenuItem
-            // 
-            this.marcasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.adicionarToolStripMenuItem2,
-            this.editarToolStripMenuItem2,
-            this.pesquisarToolStripMenuItem2,
-            this.deletarToolStripMenuItem3});
-            this.marcasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marcasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.marcasToolStripMenuItem.Name = "marcasToolStripMenuItem";
-            this.marcasToolStripMenuItem.Size = new System.Drawing.Size(66, 21);
-            this.marcasToolStripMenuItem.Text = "Marcas";
-            // 
-            // adicionarToolStripMenuItem2
-            // 
-            this.adicionarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.adicionarToolStripMenuItem2.Name = "adicionarToolStripMenuItem2";
-            this.adicionarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.adicionarToolStripMenuItem2.Text = "Adicionar";
-            // 
-            // editarToolStripMenuItem2
-            // 
-            this.editarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.editarToolStripMenuItem2.Name = "editarToolStripMenuItem2";
-            this.editarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.editarToolStripMenuItem2.Text = "Editar";
-            // 
-            // pesquisarToolStripMenuItem2
-            // 
-            this.pesquisarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pesquisarToolStripMenuItem2.Name = "pesquisarToolStripMenuItem2";
-            this.pesquisarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.pesquisarToolStripMenuItem2.Text = "Pesquisar";
-            // 
-            // deletarToolStripMenuItem3
-            // 
-            this.deletarToolStripMenuItem3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.deletarToolStripMenuItem3.Name = "deletarToolStripMenuItem3";
-            this.deletarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.deletarToolStripMenuItem3.Text = "Deletar";
-            // 
-            // usuarioToolStripMenuItem
-            // 
-            this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.alterarDadosToolStripMenuItem});
-            this.usuarioToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usuarioToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(69, 21);
-            this.usuarioToolStripMenuItem.Text = "Usuário";
-            // 
-            // alterarDadosToolStripMenuItem
-            // 
-            this.alterarDadosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.alterarDadosToolStripMenuItem.Name = "alterarDadosToolStripMenuItem";
-            this.alterarDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.alterarDadosToolStripMenuItem.Text = "Alterar Dados";
-            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -618,6 +627,8 @@
             this.Name = "TelaPrincipal";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBoxMesAtualFundo.ResumeLayout(false);
@@ -638,8 +649,6 @@
             this.groupBox3.PerformLayout();
             this.groupBoxUltimosPostFundo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
