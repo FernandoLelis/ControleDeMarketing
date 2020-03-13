@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.MenuStrip menuStrip1;
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.labelNomeUsuario = new System.Windows.Forms.Label();
@@ -44,49 +45,61 @@
             this.labelMesAtual = new System.Windows.Forms.Label();
             this.labelPorcentagemMesAtual = new System.Windows.Forms.Label();
             this.labelCloncuido = new System.Windows.Forms.Label();
-            this.groupBoxMenu = new System.Windows.Forms.GroupBox();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.labelMarcaDashboard = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.labelAcoesMesDashboard = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.labelRealizadasDashboard = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.labelConcluidoDashboard = new System.Windows.Forms.Label();
-            this.groupBoxUltimosPostFundo = new System.Windows.Forms.GroupBox();
             this.Marca = new System.Windows.Forms.DataGridViewImageColumn();
             this.AcoesPorMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Realizadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Concluido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.labelConcluidoDashboard = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.labelRealizadasDashboard = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.labelAcoesMesDashboard = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.labelMarcaDashboard = new System.Windows.Forms.Label();
+            this.groupBoxUltimosPostFundo = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBoxAddAcao = new System.Windows.Forms.PictureBox();
-            this.labelAddAcao = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.labelAddMarca = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.adicionarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pesquisarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deletarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dicionarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pesquisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deletarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.campanhasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pequisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deletarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.marcasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adicionarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pesquisarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deletarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            menuStrip1 = new System.Windows.Forms.MenuStrip();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBoxMesAtualFundo.SuspendLayout();
             this.groupBoxMesAtualTitulo.SuspendLayout();
-            this.groupBoxMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBoxUltimosPostFundo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddAcao)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -186,16 +199,6 @@
             this.labelCloncuido.TabIndex = 1;
             this.labelCloncuido.Text = "Concluído";
             // 
-            // groupBoxMenu
-            // 
-            this.groupBoxMenu.Controls.Add(this.labelAddAcao);
-            this.groupBoxMenu.Controls.Add(this.pictureBoxAddAcao);
-            this.groupBoxMenu.Location = new System.Drawing.Point(12, 68);
-            this.groupBoxMenu.Name = "groupBoxMenu";
-            this.groupBoxMenu.Size = new System.Drawing.Size(158, 51);
-            this.groupBoxMenu.TabIndex = 0;
-            this.groupBoxMenu.TabStop = false;
-            // 
             // dataGridView
             // 
             this.dataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -222,103 +225,59 @@
             this.dataGridView.Size = new System.Drawing.Size(506, 533);
             this.dataGridView.TabIndex = 11;
             // 
+            // Marca
+            // 
+            this.Marca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle7.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle7.NullValue")));
+            this.Marca.DefaultCellStyle = dataGridViewCellStyle7;
+            this.Marca.Frozen = true;
+            this.Marca.HeaderText = "Marca";
+            this.Marca.Name = "Marca";
+            this.Marca.Width = 127;
+            // 
+            // AcoesPorMes
+            // 
+            this.AcoesPorMes.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.Format = "N2";
+            dataGridViewCellStyle8.NullValue = null;
+            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle8;
+            this.AcoesPorMes.Frozen = true;
+            this.AcoesPorMes.HeaderText = "Ações por Mês";
+            this.AcoesPorMes.Name = "AcoesPorMes";
+            this.AcoesPorMes.Width = 126;
+            // 
+            // Realizadas
+            // 
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle9;
+            this.Realizadas.HeaderText = "Realizadas";
+            this.Realizadas.Name = "Realizadas";
+            // 
+            // Concluido
+            // 
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Concluido.DefaultCellStyle = dataGridViewCellStyle10;
+            this.Concluido.HeaderText = "% Concluído";
+            this.Concluido.Name = "Concluido";
+            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dataGridView);
             this.groupBox1.Controls.Add(this.groupBox7);
             this.groupBox1.Controls.Add(this.groupBox6);
             this.groupBox1.Controls.Add(this.groupBox5);
             this.groupBox1.Controls.Add(this.groupBox4);
             this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Controls.Add(this.dataGridView);
             this.groupBox1.Location = new System.Drawing.Point(176, 68);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(512, 577);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.labelMarcaDashboard);
-            this.groupBox3.Location = new System.Drawing.Point(0, 0);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(128, 40);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            // 
-            // labelMarcaDashboard
-            // 
-            this.labelMarcaDashboard.AutoSize = true;
-            this.labelMarcaDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMarcaDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelMarcaDashboard.Location = new System.Drawing.Point(37, 15);
-            this.labelMarcaDashboard.Name = "labelMarcaDashboard";
-            this.labelMarcaDashboard.Size = new System.Drawing.Size(51, 16);
-            this.labelMarcaDashboard.TabIndex = 1;
-            this.labelMarcaDashboard.Text = "Marca";
-            this.labelMarcaDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Location = new System.Drawing.Point(0, 0);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(130, 40);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label7.Location = new System.Drawing.Point(37, 15);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 16);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Marca";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.labelAcoesMesDashboard);
-            this.groupBox5.Location = new System.Drawing.Point(129, 0);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(128, 40);
-            this.groupBox5.TabIndex = 0;
-            this.groupBox5.TabStop = false;
-            // 
-            // labelAcoesMesDashboard
-            // 
-            this.labelAcoesMesDashboard.AutoSize = true;
-            this.labelAcoesMesDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAcoesMesDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelAcoesMesDashboard.Location = new System.Drawing.Point(8, 15);
-            this.labelAcoesMesDashboard.Name = "labelAcoesMesDashboard";
-            this.labelAcoesMesDashboard.Size = new System.Drawing.Size(112, 16);
-            this.labelAcoesMesDashboard.TabIndex = 1;
-            this.labelAcoesMesDashboard.Text = "Ações por Mês";
-            this.labelAcoesMesDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.labelRealizadasDashboard);
-            this.groupBox6.Location = new System.Drawing.Point(256, 0);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(127, 40);
-            this.groupBox6.TabIndex = 0;
-            this.groupBox6.TabStop = false;
-            // 
-            // labelRealizadasDashboard
-            // 
-            this.labelRealizadasDashboard.AutoSize = true;
-            this.labelRealizadasDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRealizadasDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelRealizadasDashboard.Location = new System.Drawing.Point(18, 15);
-            this.labelRealizadasDashboard.Name = "labelRealizadasDashboard";
-            this.labelRealizadasDashboard.Size = new System.Drawing.Size(87, 16);
-            this.labelRealizadasDashboard.TabIndex = 1;
-            this.labelRealizadasDashboard.Text = "Realizadas";
-            this.labelRealizadasDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox7
             // 
@@ -341,6 +300,90 @@
             this.labelConcluidoDashboard.Text = "% Concluído";
             this.labelConcluidoDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.labelRealizadasDashboard);
+            this.groupBox6.Location = new System.Drawing.Point(256, 0);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(127, 40);
+            this.groupBox6.TabIndex = 0;
+            this.groupBox6.TabStop = false;
+            // 
+            // labelRealizadasDashboard
+            // 
+            this.labelRealizadasDashboard.AutoSize = true;
+            this.labelRealizadasDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRealizadasDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelRealizadasDashboard.Location = new System.Drawing.Point(18, 15);
+            this.labelRealizadasDashboard.Name = "labelRealizadasDashboard";
+            this.labelRealizadasDashboard.Size = new System.Drawing.Size(87, 16);
+            this.labelRealizadasDashboard.TabIndex = 1;
+            this.labelRealizadasDashboard.Text = "Realizadas";
+            this.labelRealizadasDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.labelAcoesMesDashboard);
+            this.groupBox5.Location = new System.Drawing.Point(129, 0);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(128, 40);
+            this.groupBox5.TabIndex = 0;
+            this.groupBox5.TabStop = false;
+            // 
+            // labelAcoesMesDashboard
+            // 
+            this.labelAcoesMesDashboard.AutoSize = true;
+            this.labelAcoesMesDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAcoesMesDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelAcoesMesDashboard.Location = new System.Drawing.Point(8, 15);
+            this.labelAcoesMesDashboard.Name = "labelAcoesMesDashboard";
+            this.labelAcoesMesDashboard.Size = new System.Drawing.Size(112, 16);
+            this.labelAcoesMesDashboard.TabIndex = 1;
+            this.labelAcoesMesDashboard.Text = "Ações por Mês";
+            this.labelAcoesMesDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Location = new System.Drawing.Point(0, 0);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(130, 40);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label7.Location = new System.Drawing.Point(37, 15);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 16);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Marca";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.labelMarcaDashboard);
+            this.groupBox3.Location = new System.Drawing.Point(0, 0);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(128, 40);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            // 
+            // labelMarcaDashboard
+            // 
+            this.labelMarcaDashboard.AutoSize = true;
+            this.labelMarcaDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMarcaDashboard.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelMarcaDashboard.Location = new System.Drawing.Point(37, 15);
+            this.labelMarcaDashboard.Name = "labelMarcaDashboard";
+            this.labelMarcaDashboard.Size = new System.Drawing.Size(51, 16);
+            this.labelMarcaDashboard.TabIndex = 1;
+            this.labelMarcaDashboard.Text = "Marca";
+            this.labelMarcaDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // groupBoxUltimosPostFundo
             // 
             this.groupBoxUltimosPostFundo.Controls.Add(this.dataGridView1);
@@ -349,46 +392,6 @@
             this.groupBoxUltimosPostFundo.Size = new System.Drawing.Size(220, 466);
             this.groupBoxUltimosPostFundo.TabIndex = 0;
             this.groupBoxUltimosPostFundo.TabStop = false;
-            // 
-            // Marca
-            // 
-            this.Marca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle43.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle43.NullValue")));
-            this.Marca.DefaultCellStyle = dataGridViewCellStyle43;
-            this.Marca.Frozen = true;
-            this.Marca.HeaderText = "Marca";
-            this.Marca.Name = "Marca";
-            this.Marca.Width = 127;
-            // 
-            // AcoesPorMes
-            // 
-            this.AcoesPorMes.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle44.Format = "N2";
-            dataGridViewCellStyle44.NullValue = null;
-            this.AcoesPorMes.DefaultCellStyle = dataGridViewCellStyle44;
-            this.AcoesPorMes.Frozen = true;
-            this.AcoesPorMes.HeaderText = "Ações por Mês";
-            this.AcoesPorMes.Name = "AcoesPorMes";
-            this.AcoesPorMes.Width = 126;
-            // 
-            // Realizadas
-            // 
-            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Realizadas.DefaultCellStyle = dataGridViewCellStyle45;
-            this.Realizadas.HeaderText = "Realizadas";
-            this.Realizadas.Name = "Realizadas";
-            // 
-            // Concluido
-            // 
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Concluido.DefaultCellStyle = dataGridViewCellStyle46;
-            this.Concluido.HeaderText = "% Concluído";
-            this.Concluido.Name = "Concluido";
             // 
             // dataGridView1
             // 
@@ -416,73 +419,184 @@
             // 
             // dataGridViewTextBoxColumn2
             // 
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridViewTextBoxColumn2.HeaderText = "Mês";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridViewTextBoxColumn3.HeaderText = "% Concluído";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
-            // pictureBoxAddAcao
+            // adicionarToolStripMenuItem
             // 
-            this.pictureBoxAddAcao.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAddAcao.Image")));
-            this.pictureBoxAddAcao.Location = new System.Drawing.Point(2, 11);
-            this.pictureBoxAddAcao.Name = "pictureBoxAddAcao";
-            this.pictureBoxAddAcao.Size = new System.Drawing.Size(35, 34);
-            this.pictureBoxAddAcao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAddAcao.TabIndex = 0;
-            this.pictureBoxAddAcao.TabStop = false;
+            this.adicionarToolStripMenuItem.Name = "adicionarToolStripMenuItem";
+            this.adicionarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.adicionarToolStripMenuItem.Text = "Adicionar";
             // 
-            // labelAddAcao
+            // alterarToolStripMenuItem
             // 
-            this.labelAddAcao.AutoSize = true;
-            this.labelAddAcao.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAddAcao.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelAddAcao.Location = new System.Drawing.Point(43, 16);
-            this.labelAddAcao.Name = "labelAddAcao";
-            this.labelAddAcao.Size = new System.Drawing.Size(96, 22);
-            this.labelAddAcao.TabIndex = 1;
-            this.labelAddAcao.Text = "Add Ação";
-            this.labelAddAcao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.alterarToolStripMenuItem.Name = "alterarToolStripMenuItem";
+            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.alterarToolStripMenuItem.Text = "Alterar";
             // 
-            // groupBox2
+            // pesquisarToolStripMenuItem1
             // 
-            this.groupBox2.Controls.Add(this.labelAddMarca);
-            this.groupBox2.Controls.Add(this.pictureBox3);
-            this.groupBox2.Location = new System.Drawing.Point(12, 119);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(158, 51);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
+            this.pesquisarToolStripMenuItem1.Name = "pesquisarToolStripMenuItem1";
+            this.pesquisarToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.pesquisarToolStripMenuItem1.Text = "Pesquisar";
             // 
-            // labelAddMarca
+            // deletarToolStripMenuItem1
             // 
-            this.labelAddMarca.AutoSize = true;
-            this.labelAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelAddMarca.Location = new System.Drawing.Point(43, 16);
-            this.labelAddMarca.Name = "labelAddMarca";
-            this.labelAddMarca.Size = new System.Drawing.Size(105, 22);
-            this.labelAddMarca.TabIndex = 1;
-            this.labelAddMarca.Text = "Add Marca";
-            this.labelAddMarca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.deletarToolStripMenuItem1.Name = "deletarToolStripMenuItem1";
+            this.deletarToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.deletarToolStripMenuItem1.Text = "Deletar";
             // 
-            // pictureBox3
+            // dicionarToolStripMenuItem
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(3, 11);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(35, 34);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.dicionarToolStripMenuItem.Name = "dicionarToolStripMenuItem";
+            this.dicionarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.dicionarToolStripMenuItem.Text = "Adicionar";
+            // 
+            // editarToolStripMenuItem
+            // 
+            this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
+            this.editarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.editarToolStripMenuItem.Text = "Editar";
+            // 
+            // pesquisarToolStripMenuItem
+            // 
+            this.pesquisarToolStripMenuItem.Name = "pesquisarToolStripMenuItem";
+            this.pesquisarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.pesquisarToolStripMenuItem.Text = "Pesquisar";
+            // 
+            // deletarToolStripMenuItem
+            // 
+            this.deletarToolStripMenuItem.Name = "deletarToolStripMenuItem";
+            this.deletarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.deletarToolStripMenuItem.Text = "Deletar";
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.AutoSize = false;
+            menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            menuStrip1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.campanhasToolStripMenuItem,
+            this.marcasToolStripMenuItem,
+            this.usuarioToolStripMenuItem});
+            menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
+            menuStrip1.Location = new System.Drawing.Point(12, 75);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new System.Drawing.Size(161, 570);
+            menuStrip1.TabIndex = 2;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // campanhasToolStripMenuItem
+            // 
+            this.campanhasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adicionarToolStripMenuItem1,
+            this.editarToolStripMenuItem1,
+            this.pequisarToolStripMenuItem,
+            this.deletarToolStripMenuItem2});
+            this.campanhasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campanhasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.campanhasToolStripMenuItem.Name = "campanhasToolStripMenuItem";
+            this.campanhasToolStripMenuItem.Size = new System.Drawing.Size(95, 21);
+            this.campanhasToolStripMenuItem.Text = "Campanhas";
+            // 
+            // adicionarToolStripMenuItem1
+            // 
+            this.adicionarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
+            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem1.Text = "Adicionar";
+            // 
+            // editarToolStripMenuItem1
+            // 
+            this.editarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem1.Text = "Editar";
+            // 
+            // pequisarToolStripMenuItem
+            // 
+            this.pequisarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pequisarToolStripMenuItem.Name = "pequisarToolStripMenuItem";
+            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pequisarToolStripMenuItem.Text = "Pequisar";
+            // 
+            // deletarToolStripMenuItem2
+            // 
+            this.deletarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
+            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem2.Text = "Deletar";
+            // 
+            // marcasToolStripMenuItem
+            // 
+            this.marcasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adicionarToolStripMenuItem2,
+            this.editarToolStripMenuItem2,
+            this.pesquisarToolStripMenuItem2,
+            this.deletarToolStripMenuItem3});
+            this.marcasToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marcasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.marcasToolStripMenuItem.Name = "marcasToolStripMenuItem";
+            this.marcasToolStripMenuItem.Size = new System.Drawing.Size(66, 21);
+            this.marcasToolStripMenuItem.Text = "Marcas";
+            // 
+            // adicionarToolStripMenuItem2
+            // 
+            this.adicionarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.adicionarToolStripMenuItem2.Name = "adicionarToolStripMenuItem2";
+            this.adicionarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem2.Text = "Adicionar";
+            // 
+            // editarToolStripMenuItem2
+            // 
+            this.editarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.editarToolStripMenuItem2.Name = "editarToolStripMenuItem2";
+            this.editarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem2.Text = "Editar";
+            // 
+            // pesquisarToolStripMenuItem2
+            // 
+            this.pesquisarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pesquisarToolStripMenuItem2.Name = "pesquisarToolStripMenuItem2";
+            this.pesquisarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.pesquisarToolStripMenuItem2.Text = "Pesquisar";
+            // 
+            // deletarToolStripMenuItem3
+            // 
+            this.deletarToolStripMenuItem3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.deletarToolStripMenuItem3.Name = "deletarToolStripMenuItem3";
+            this.deletarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem3.Text = "Deletar";
+            // 
+            // usuarioToolStripMenuItem
+            // 
+            this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.alterarDadosToolStripMenuItem});
+            this.usuarioToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usuarioToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
+            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(69, 21);
+            this.usuarioToolStripMenuItem.Text = "Usuário";
+            // 
+            // alterarDadosToolStripMenuItem
+            // 
+            this.alterarDadosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.alterarDadosToolStripMenuItem.Name = "alterarDadosToolStripMenuItem";
+            this.alterarDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alterarDadosToolStripMenuItem.Text = "Alterar Dados";
             // 
             // TelaPrincipal
             // 
@@ -490,8 +604,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(926, 657);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBoxMenu);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxMesAtualFundo);
             this.Controls.Add(this.labelDepartamentoUsuario);
@@ -499,6 +611,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBoxUltimosPostFundo);
+            this.Controls.Add(menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -511,26 +624,22 @@
             this.groupBoxMesAtualFundo.PerformLayout();
             this.groupBoxMesAtualTitulo.ResumeLayout(false);
             this.groupBoxMesAtualTitulo.PerformLayout();
-            this.groupBoxMenu.ResumeLayout(false);
-            this.groupBoxMenu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBoxUltimosPostFundo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAddAcao)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -543,7 +652,6 @@
         private System.Windows.Forms.Label labelNomeUsuario;
         private System.Windows.Forms.Label labelDepartamentoUsuario;
         private System.Windows.Forms.GroupBox groupBoxMesAtualFundo;
-        private System.Windows.Forms.GroupBox groupBoxMenu;
         private System.Windows.Forms.GroupBox groupBoxMesAtualTitulo;
         private System.Windows.Forms.Label labelPorcentagemMesAtual;
         private System.Windows.Forms.Label labelCloncuido;
@@ -568,10 +676,25 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.PictureBox pictureBoxAddAcao;
-        private System.Windows.Forms.Label labelAddAcao;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label labelAddMarca;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.ToolStripMenuItem adicionarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alterarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pesquisarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem deletarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem dicionarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pesquisarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deletarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem campanhasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adicionarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem pequisarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deletarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem marcasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adicionarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem pesquisarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem deletarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alterarDadosToolStripMenuItem;
     }
 }
