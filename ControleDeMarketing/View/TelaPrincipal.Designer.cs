@@ -85,6 +85,8 @@
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pesquisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deletarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configuraçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             menuStrip1 = new System.Windows.Forms.MenuStrip();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -112,7 +114,8 @@
             menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.campanhasToolStripMenuItem,
             this.marcasToolStripMenuItem,
-            this.usuarioToolStripMenuItem});
+            this.usuarioToolStripMenuItem,
+            this.sistemaToolStripMenuItem});
             menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
             menuStrip1.Location = new System.Drawing.Point(12, 75);
             menuStrip1.MdiWindowListItem = this.campanhasToolStripMenuItem;
@@ -144,7 +147,7 @@
             this.adicionarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.adicionarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("adicionarToolStripMenuItem1.Image")));
             this.adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
-            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
+            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.adicionarToolStripMenuItem1.Text = "Adicionar";
             // 
             // editarToolStripMenuItem1
@@ -152,7 +155,7 @@
             this.editarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.editarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("editarToolStripMenuItem1.Image")));
             this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
-            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.editarToolStripMenuItem1.Text = "Editar";
             // 
             // pequisarToolStripMenuItem
@@ -160,7 +163,7 @@
             this.pequisarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pequisarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pequisarToolStripMenuItem.Image")));
             this.pequisarToolStripMenuItem.Name = "pequisarToolStripMenuItem";
-            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pequisarToolStripMenuItem.Text = "Pequisar";
             // 
             // deletarToolStripMenuItem2
@@ -168,7 +171,7 @@
             this.deletarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.deletarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("deletarToolStripMenuItem2.Image")));
             this.deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
-            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(135, 22);
+            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.deletarToolStripMenuItem2.Text = "Deletar";
             // 
             // marcasToolStripMenuItem
@@ -190,7 +193,7 @@
             this.adicionarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.adicionarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("adicionarToolStripMenuItem2.Image")));
             this.adicionarToolStripMenuItem2.Name = "adicionarToolStripMenuItem2";
-            this.adicionarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem2.Size = new System.Drawing.Size(139, 22);
             this.adicionarToolStripMenuItem2.Text = "Adicionar";
             this.adicionarToolStripMenuItem2.Click += new System.EventHandler(this.adicionarToolStripMenuItem2_Click);
             // 
@@ -199,7 +202,7 @@
             this.editarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.editarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("editarToolStripMenuItem2.Image")));
             this.editarToolStripMenuItem2.Name = "editarToolStripMenuItem2";
-            this.editarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem2.Size = new System.Drawing.Size(139, 22);
             this.editarToolStripMenuItem2.Text = "Editar";
             // 
             // pesquisarToolStripMenuItem2
@@ -207,7 +210,7 @@
             this.pesquisarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pesquisarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("pesquisarToolStripMenuItem2.Image")));
             this.pesquisarToolStripMenuItem2.Name = "pesquisarToolStripMenuItem2";
-            this.pesquisarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.pesquisarToolStripMenuItem2.Size = new System.Drawing.Size(139, 22);
             this.pesquisarToolStripMenuItem2.Text = "Pesquisar";
             // 
             // deletarToolStripMenuItem3
@@ -215,7 +218,7 @@
             this.deletarToolStripMenuItem3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.deletarToolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("deletarToolStripMenuItem3.Image")));
             this.deletarToolStripMenuItem3.Name = "deletarToolStripMenuItem3";
-            this.deletarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem3.Size = new System.Drawing.Size(139, 22);
             this.deletarToolStripMenuItem3.Text = "Deletar";
             // 
             // usuarioToolStripMenuItem
@@ -234,8 +237,9 @@
             this.alterarDadosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.alterarDadosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("alterarDadosToolStripMenuItem.Image")));
             this.alterarDadosToolStripMenuItem.Name = "alterarDadosToolStripMenuItem";
-            this.alterarDadosToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.alterarDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.alterarDadosToolStripMenuItem.Text = "Alterar";
+            this.alterarDadosToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pictureBox1
             // 
@@ -616,12 +620,31 @@
             this.deletarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.deletarToolStripMenuItem.Text = "Deletar";
             // 
+            // sistemaToolStripMenuItem
+            // 
+            this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.configuraçõesToolStripMenuItem});
+            this.sistemaToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sistemaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
+            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(70, 21);
+            this.sistemaToolStripMenuItem.Text = "Sistema";
+            this.sistemaToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // configuraçõesToolStripMenuItem
+            // 
+            this.configuraçõesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.configuraçõesToolStripMenuItem.Name = "configuraçõesToolStripMenuItem";
+            this.configuraçõesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.configuraçõesToolStripMenuItem.Text = "Configurações";
+            this.configuraçõesToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(926, 657);
+            this.ClientSize = new System.Drawing.Size(926, 656);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBoxMesAtualFundo);
             this.Controls.Add(this.labelDepartamentoUsuario);
@@ -716,5 +739,7 @@
         private System.Windows.Forms.ToolStripMenuItem deletarToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem alterarDadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configuraçõesToolStripMenuItem;
     }
 }
