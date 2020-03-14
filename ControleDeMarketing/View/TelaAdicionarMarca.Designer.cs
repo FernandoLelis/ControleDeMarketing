@@ -114,7 +114,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(433, 369);
+            this.ClientSize = new System.Drawing.Size(362, 368);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBoxCategoriaAddMarca);
             this.Controls.Add(this.textBoxNomeAddMarca);
@@ -123,12 +123,13 @@
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.button1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(449, 407);
+            this.MaximumSize = new System.Drawing.Size(378, 407);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(449, 407);
+            this.MinimumSize = new System.Drawing.Size(378, 407);
             this.Name = "TelaAdicionarMarca";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Adicionar Marcas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
