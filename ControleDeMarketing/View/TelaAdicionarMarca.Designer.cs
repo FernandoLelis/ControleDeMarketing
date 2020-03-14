@@ -28,30 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonLogoAddMarca = new System.Windows.Forms.Button();
             this.labelNomeAddMarca = new System.Windows.Forms.Label();
             this.textBoxNomeAddMarca = new System.Windows.Forms.TextBox();
             this.labelCategoriaAddMarca = new System.Windows.Forms.Label();
             this.labelRelvanciaAddMarca = new System.Windows.Forms.Label();
             this.comboBoxRelavanciaAddMarca = new System.Windows.Forms.ComboBox();
             this.comboBoxCategoriaAddMarca = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBoxLogoAddMarca = new System.Windows.Forms.PictureBox();
+            this.labelLogoAddMarca = new System.Windows.Forms.Label();
+            this.buttonLogoAddMarca = new System.Windows.Forms.Button();
+            this.buttonSalvarAddMarca = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoAddMarca)).BeginInit();
             this.SuspendLayout();
-            // 
-            // buttonLogoAddMarca
-            // 
-            this.buttonLogoAddMarca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.buttonLogoAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonLogoAddMarca.Location = new System.Drawing.Point(39, 153);
-            this.buttonLogoAddMarca.Name = "buttonLogoAddMarca";
-            this.buttonLogoAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.buttonLogoAddMarca.Size = new System.Drawing.Size(75, 29);
-            this.buttonLogoAddMarca.TabIndex = 0;
-            this.buttonLogoAddMarca.Text = "Logo";
-            this.buttonLogoAddMarca.UseVisualStyleBackColor = true;
             // 
             // labelNomeAddMarca
             // 
@@ -131,13 +119,52 @@
             this.comboBoxCategoriaAddMarca.Size = new System.Drawing.Size(130, 24);
             this.comboBoxCategoriaAddMarca.TabIndex = 3;
             // 
-            // pictureBox1
+            // pictureBoxLogoAddMarca
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(159, 153);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(75, 50);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxLogoAddMarca.Location = new System.Drawing.Point(159, 144);
+            this.pictureBoxLogoAddMarca.Name = "pictureBoxLogoAddMarca";
+            this.pictureBoxLogoAddMarca.Size = new System.Drawing.Size(75, 50);
+            this.pictureBoxLogoAddMarca.TabIndex = 4;
+            this.pictureBoxLogoAddMarca.TabStop = false;
+            // 
+            // labelLogoAddMarca
+            // 
+            this.labelLogoAddMarca.AutoSize = true;
+            this.labelLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelLogoAddMarca.Location = new System.Drawing.Point(36, 144);
+            this.labelLogoAddMarca.Name = "labelLogoAddMarca";
+            this.labelLogoAddMarca.Size = new System.Drawing.Size(44, 17);
+            this.labelLogoAddMarca.TabIndex = 1;
+            this.labelLogoAddMarca.Text = "Logo:";
+            // 
+            // buttonLogoAddMarca
+            // 
+            this.buttonLogoAddMarca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.buttonLogoAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonLogoAddMarca.Location = new System.Drawing.Point(240, 144);
+            this.buttonLogoAddMarca.Name = "buttonLogoAddMarca";
+            this.buttonLogoAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.buttonLogoAddMarca.Size = new System.Drawing.Size(75, 24);
+            this.buttonLogoAddMarca.TabIndex = 0;
+            this.buttonLogoAddMarca.Text = "Buscar";
+            this.buttonLogoAddMarca.UseVisualStyleBackColor = true;
+            // 
+            // buttonSalvarAddMarca
+            // 
+            this.buttonSalvarAddMarca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonSalvarAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSalvarAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.buttonSalvarAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(141, 216);
+            this.buttonSalvarAddMarca.Name = "buttonSalvarAddMarca";
+            this.buttonSalvarAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.buttonSalvarAddMarca.Size = new System.Drawing.Size(75, 24);
+            this.buttonSalvarAddMarca.TabIndex = 0;
+            this.buttonSalvarAddMarca.Text = "Salvar";
+            this.buttonSalvarAddMarca.UseVisualStyleBackColor = true;
             // 
             // TelaAdicionarMarca
             // 
@@ -145,13 +172,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(362, 368);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxLogoAddMarca);
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBoxCategoriaAddMarca);
             this.Controls.Add(this.comboBoxRelavanciaAddMarca);
             this.Controls.Add(this.textBoxNomeAddMarca);
             this.Controls.Add(this.labelCategoriaAddMarca);
+            this.Controls.Add(this.buttonSalvarAddMarca);
             this.Controls.Add(this.buttonLogoAddMarca);
+            this.Controls.Add(this.labelLogoAddMarca);
             this.Controls.Add(this.labelRelvanciaAddMarca);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(378, 407);
@@ -161,21 +190,22 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Adicionar Marcas";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoAddMarca)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button buttonLogoAddMarca;
         private System.Windows.Forms.Label labelNomeAddMarca;
         private System.Windows.Forms.TextBox textBoxNomeAddMarca;
         private System.Windows.Forms.Label labelCategoriaAddMarca;
         private System.Windows.Forms.Label labelRelvanciaAddMarca;
         private System.Windows.Forms.ComboBox comboBoxRelavanciaAddMarca;
         private System.Windows.Forms.ComboBox comboBoxCategoriaAddMarca;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxLogoAddMarca;
+        private System.Windows.Forms.Label labelLogoAddMarca;
+        private System.Windows.Forms.Button buttonLogoAddMarca;
+        private System.Windows.Forms.Button buttonSalvarAddMarca;
     }
 }
