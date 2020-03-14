@@ -16,5 +16,13 @@ namespace ControleDeMarketing.View
         {
             InitializeComponent();
         }
+
+        private void buttonLogoAddMarca_Click(object sender, EventArgs e)
+        {
+            if (openFileDialogLocaLogoAddMarca.ShowDialog() == DialogResult.OK)
+            {
+               
+            }
+        }
     }
 }

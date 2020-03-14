@@ -38,6 +38,8 @@
             this.buttonLogoAddMarca = new System.Windows.Forms.Button();
             this.buttonSalvarAddMarca = new System.Windows.Forms.Button();
             this.pictureBoxLogoAddMarca = new System.Windows.Forms.PictureBox();
+            this.openFileDialogLocaLogoAddMarca = new System.Windows.Forms.OpenFileDialog();
+            this.textBoxCaminhoLogaAddMarca = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoAddMarca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,13 +138,14 @@
             this.buttonLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.buttonLogoAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonLogoAddMarca.Location = new System.Drawing.Point(159, 143);
+            this.buttonLogoAddMarca.Location = new System.Drawing.Point(159, 177);
             this.buttonLogoAddMarca.Name = "buttonLogoAddMarca";
             this.buttonLogoAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.buttonLogoAddMarca.Size = new System.Drawing.Size(75, 24);
             this.buttonLogoAddMarca.TabIndex = 0;
             this.buttonLogoAddMarca.Text = "Buscar";
             this.buttonLogoAddMarca.UseVisualStyleBackColor = true;
+            this.buttonLogoAddMarca.Click += new System.EventHandler(this.buttonLogoAddMarca_Click);
             // 
             // buttonSalvarAddMarca
             // 
@@ -150,7 +153,7 @@
             this.buttonSalvarAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalvarAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.buttonSalvarAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(141, 216);
+            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(141, 235);
             this.buttonSalvarAddMarca.Name = "buttonSalvarAddMarca";
             this.buttonSalvarAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.buttonSalvarAddMarca.Size = new System.Drawing.Size(75, 24);
@@ -160,11 +163,24 @@
             // 
             // pictureBoxLogoAddMarca
             // 
-            this.pictureBoxLogoAddMarca.Location = new System.Drawing.Point(240, 144);
+            this.pictureBoxLogoAddMarca.Location = new System.Drawing.Point(240, 177);
             this.pictureBoxLogoAddMarca.Name = "pictureBoxLogoAddMarca";
             this.pictureBoxLogoAddMarca.Size = new System.Drawing.Size(75, 50);
             this.pictureBoxLogoAddMarca.TabIndex = 4;
             this.pictureBoxLogoAddMarca.TabStop = false;
+            // 
+            // openFileDialogLocaLogoAddMarca
+            // 
+            this.openFileDialogLocaLogoAddMarca.FileName = "openFileDialogLocaLogoAddMarca";
+            // 
+            // textBoxCaminhoLogaAddMarca
+            // 
+            this.textBoxCaminhoLogaAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCaminhoLogaAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxCaminhoLogaAddMarca.Location = new System.Drawing.Point(159, 145);
+            this.textBoxCaminhoLogaAddMarca.Name = "textBoxCaminhoLogaAddMarca";
+            this.textBoxCaminhoLogaAddMarca.Size = new System.Drawing.Size(156, 23);
+            this.textBoxCaminhoLogaAddMarca.TabIndex = 2;
             // 
             // TelaAdicionarMarca
             // 
@@ -176,6 +192,7 @@
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBoxCategoriaAddMarca);
             this.Controls.Add(this.comboBoxRelavanciaAddMarca);
+            this.Controls.Add(this.textBoxCaminhoLogaAddMarca);
             this.Controls.Add(this.textBoxNomeAddMarca);
             this.Controls.Add(this.labelCategoriaAddMarca);
             this.Controls.Add(this.buttonSalvarAddMarca);
@@ -207,5 +224,7 @@
         private System.Windows.Forms.Button buttonLogoAddMarca;
         private System.Windows.Forms.Button buttonSalvarAddMarca;
         private System.Windows.Forms.PictureBox pictureBoxLogoAddMarca;
+        private System.Windows.Forms.OpenFileDialog openFileDialogLocaLogoAddMarca;
+        private System.Windows.Forms.TextBox textBoxCaminhoLogaAddMarca;
     }
 }
