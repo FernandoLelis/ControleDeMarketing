@@ -58,7 +58,7 @@
             this.textBoxNomeAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxNomeAddMarca.Location = new System.Drawing.Point(159, 45);
             this.textBoxNomeAddMarca.Name = "textBoxNomeAddMarca";
-            this.textBoxNomeAddMarca.Size = new System.Drawing.Size(130, 23);
+            this.textBoxNomeAddMarca.Size = new System.Drawing.Size(156, 23);
             this.textBoxNomeAddMarca.TabIndex = 2;
             // 
             // labelCategoriaAddMarca
@@ -116,7 +116,7 @@
             "Diversos"});
             this.comboBoxCategoriaAddMarca.Location = new System.Drawing.Point(159, 76);
             this.comboBoxCategoriaAddMarca.Name = "comboBoxCategoriaAddMarca";
-            this.comboBoxCategoriaAddMarca.Size = new System.Drawing.Size(130, 24);
+            this.comboBoxCategoriaAddMarca.Size = new System.Drawing.Size(156, 24);
             this.comboBoxCategoriaAddMarca.TabIndex = 3;
             // 
             // pictureBoxLogoAddMarca
@@ -171,7 +171,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(362, 368);
+            this.ClientSize = new System.Drawing.Size(358, 280);
             this.Controls.Add(this.pictureBoxLogoAddMarca);
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBoxCategoriaAddMarca);
@@ -183,9 +183,9 @@
             this.Controls.Add(this.labelLogoAddMarca);
             this.Controls.Add(this.labelRelvanciaAddMarca);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(378, 407);
+            this.MaximumSize = new System.Drawing.Size(374, 319);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(378, 407);
+            this.MinimumSize = new System.Drawing.Size(374, 319);
             this.Name = "TelaAdicionarMarca";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
