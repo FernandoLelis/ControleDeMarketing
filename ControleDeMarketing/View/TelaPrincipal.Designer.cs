@@ -48,6 +48,8 @@
             this.deletarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alterarDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configuraçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.labelNomeUsuario = new System.Windows.Forms.Label();
@@ -85,8 +87,6 @@
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pesquisarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deletarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.configuraçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             menuStrip1 = new System.Windows.Forms.MenuStrip();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -147,7 +147,7 @@
             this.adicionarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.adicionarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("adicionarToolStripMenuItem1.Image")));
             this.adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
-            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
             this.adicionarToolStripMenuItem1.Text = "Adicionar";
             // 
             // editarToolStripMenuItem1
@@ -155,7 +155,7 @@
             this.editarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.editarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("editarToolStripMenuItem1.Image")));
             this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
-            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
             this.editarToolStripMenuItem1.Text = "Editar";
             // 
             // pequisarToolStripMenuItem
@@ -163,7 +163,7 @@
             this.pequisarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pequisarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pequisarToolStripMenuItem.Image")));
             this.pequisarToolStripMenuItem.Name = "pequisarToolStripMenuItem";
-            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.pequisarToolStripMenuItem.Text = "Pequisar";
             // 
             // deletarToolStripMenuItem2
@@ -171,7 +171,7 @@
             this.deletarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.deletarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("deletarToolStripMenuItem2.Image")));
             this.deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
-            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(135, 22);
             this.deletarToolStripMenuItem2.Text = "Deletar";
             // 
             // marcasToolStripMenuItem
@@ -240,6 +240,26 @@
             this.alterarDadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.alterarDadosToolStripMenuItem.Text = "Alterar";
             this.alterarDadosToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // sistemaToolStripMenuItem
+            // 
+            this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.configuraçõesToolStripMenuItem});
+            this.sistemaToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sistemaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
+            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(70, 21);
+            this.sistemaToolStripMenuItem.Text = "Sistema";
+            this.sistemaToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // configuraçõesToolStripMenuItem
+            // 
+            this.configuraçõesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.configuraçõesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("configuraçõesToolStripMenuItem.Image")));
+            this.configuraçõesToolStripMenuItem.Name = "configuraçõesToolStripMenuItem";
+            this.configuraçõesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.configuraçõesToolStripMenuItem.Text = "Configurações";
+            this.configuraçõesToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pictureBox1
             // 
@@ -368,7 +388,7 @@
             // 
             this.Marca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle1.NullValue")));
+            dataGridViewCellStyle1.NullValue = null;
             this.Marca.DefaultCellStyle = dataGridViewCellStyle1;
             this.Marca.Frozen = true;
             this.Marca.HeaderText = "Marca";
@@ -619,25 +639,6 @@
             this.deletarToolStripMenuItem.Name = "deletarToolStripMenuItem";
             this.deletarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.deletarToolStripMenuItem.Text = "Deletar";
-            // 
-            // sistemaToolStripMenuItem
-            // 
-            this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.configuraçõesToolStripMenuItem});
-            this.sistemaToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sistemaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
-            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(70, 21);
-            this.sistemaToolStripMenuItem.Text = "Sistema";
-            this.sistemaToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // configuraçõesToolStripMenuItem
-            // 
-            this.configuraçõesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.configuraçõesToolStripMenuItem.Name = "configuraçõesToolStripMenuItem";
-            this.configuraçõesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.configuraçõesToolStripMenuItem.Text = "Configurações";
-            this.configuraçõesToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // TelaPrincipal
             // 
