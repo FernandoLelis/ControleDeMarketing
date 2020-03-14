@@ -49,49 +49,58 @@
             // labelNomeAddMarca
             // 
             this.labelNomeAddMarca.AutoSize = true;
-            this.labelNomeAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomeAddMarca.Location = new System.Drawing.Point(73, 114);
+            this.labelNomeAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNomeAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelNomeAddMarca.Location = new System.Drawing.Point(36, 48);
             this.labelNomeAddMarca.Name = "labelNomeAddMarca";
-            this.labelNomeAddMarca.Size = new System.Drawing.Size(48, 16);
+            this.labelNomeAddMarca.Size = new System.Drawing.Size(49, 17);
             this.labelNomeAddMarca.TabIndex = 1;
             this.labelNomeAddMarca.Text = "Nome:";
             // 
             // textBoxNomeAddMarca
             // 
-            this.textBoxNomeAddMarca.Location = new System.Drawing.Point(159, 114);
+            this.textBoxNomeAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNomeAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxNomeAddMarca.Location = new System.Drawing.Point(159, 45);
             this.textBoxNomeAddMarca.Name = "textBoxNomeAddMarca";
-            this.textBoxNomeAddMarca.Size = new System.Drawing.Size(130, 20);
+            this.textBoxNomeAddMarca.Size = new System.Drawing.Size(130, 23);
             this.textBoxNomeAddMarca.TabIndex = 2;
             // 
             // labelCategoriaAddMarca
             // 
             this.labelCategoriaAddMarca.AutoSize = true;
-            this.labelCategoriaAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCategoriaAddMarca.Location = new System.Drawing.Point(73, 146);
+            this.labelCategoriaAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCategoriaAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelCategoriaAddMarca.Location = new System.Drawing.Point(36, 80);
             this.labelCategoriaAddMarca.Name = "labelCategoriaAddMarca";
-            this.labelCategoriaAddMarca.Size = new System.Drawing.Size(70, 16);
+            this.labelCategoriaAddMarca.Size = new System.Drawing.Size(73, 17);
             this.labelCategoriaAddMarca.TabIndex = 1;
             this.labelCategoriaAddMarca.Text = "Categoria:";
             // 
             // textBoxCategoriaAddMarca
             // 
-            this.textBoxCategoriaAddMarca.Location = new System.Drawing.Point(159, 144);
+            this.textBoxCategoriaAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCategoriaAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxCategoriaAddMarca.Location = new System.Drawing.Point(159, 78);
             this.textBoxCategoriaAddMarca.Name = "textBoxCategoriaAddMarca";
-            this.textBoxCategoriaAddMarca.Size = new System.Drawing.Size(130, 20);
+            this.textBoxCategoriaAddMarca.Size = new System.Drawing.Size(130, 23);
             this.textBoxCategoriaAddMarca.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(73, 178);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Location = new System.Drawing.Point(36, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 16);
+            this.label1.Size = new System.Drawing.Size(82, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Relevância:";
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "1",
@@ -104,9 +113,9 @@
             "8",
             "9",
             "10"});
-            this.comboBox1.Location = new System.Drawing.Point(159, 176);
+            this.comboBox1.Location = new System.Drawing.Point(159, 110);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(41, 21);
+            this.comboBox1.Size = new System.Drawing.Size(41, 24);
             this.comboBox1.TabIndex = 3;
             // 
             // TelaAdicionarMarca
@@ -115,13 +124,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(362, 368);
+            this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBoxCategoriaAddMarca);
             this.Controls.Add(this.textBoxNomeAddMarca);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelCategoriaAddMarca);
-            this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(378, 407);
             this.MinimizeBox = false;
