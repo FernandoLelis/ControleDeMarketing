@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonLogoAddMarca = new System.Windows.Forms.Button();
             this.labelNomeAddMarca = new System.Windows.Forms.Label();
             this.textBoxNomeAddMarca = new System.Windows.Forms.TextBox();
             this.labelCategoriaAddMarca = new System.Windows.Forms.Label();
@@ -37,16 +37,18 @@
             this.comboBoxCategoriaAddMarca = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonLogoAddMarca
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Location = new System.Drawing.Point(39, 161);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Logo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.buttonLogoAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonLogoAddMarca.Location = new System.Drawing.Point(39, 153);
+            this.buttonLogoAddMarca.Name = "buttonLogoAddMarca";
+            this.buttonLogoAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.buttonLogoAddMarca.Size = new System.Drawing.Size(75, 29);
+            this.buttonLogoAddMarca.TabIndex = 0;
+            this.buttonLogoAddMarca.Text = "Logo";
+            this.buttonLogoAddMarca.UseVisualStyleBackColor = true;
             // 
             // labelNomeAddMarca
             // 
@@ -137,7 +139,7 @@
             this.Controls.Add(this.comboBoxRelavanciaAddMarca);
             this.Controls.Add(this.textBoxNomeAddMarca);
             this.Controls.Add(this.labelCategoriaAddMarca);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonLogoAddMarca);
             this.Controls.Add(this.labelRelvanciaAddMarca);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(378, 407);
@@ -154,7 +156,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonLogoAddMarca;
         private System.Windows.Forms.Label labelNomeAddMarca;
         private System.Windows.Forms.TextBox textBoxNomeAddMarca;
         private System.Windows.Forms.Label labelCategoriaAddMarca;
