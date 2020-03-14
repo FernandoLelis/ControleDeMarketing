@@ -24,5 +24,6 @@ namespace ControleDeMarketing.View
                 pictureBoxLogoAddMarca.ImageLocation = openFileDialog1.FileName;
                 pictureBoxLogoAddMarca.Load();
             }
+        }
     }
 }
