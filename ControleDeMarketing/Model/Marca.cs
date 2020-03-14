@@ -8,5 +8,8 @@ namespace ControleDeMarketing.Model
 {
     class Marca
     {
+        private static string nomeMarca;
+        private static string categoriaMarca;
+        private static iman
     }
 }
