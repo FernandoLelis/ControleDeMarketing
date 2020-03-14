@@ -19,10 +19,10 @@ namespace ControleDeMarketing.View
 
         private void buttonLogoAddMarca_Click(object sender, EventArgs e)
         {
-            if (openFileDialogLocaLogoAddMarca.ShowDialog() == DialogResult.OK)
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-               
+                pictureBoxLogoAddMarca.ImageLocation = openFileDialog1.FileName;
+                pictureBoxLogoAddMarca.Load();
             }
-        }
     }
 }

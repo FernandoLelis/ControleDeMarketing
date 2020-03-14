@@ -38,8 +38,7 @@
             this.buttonLogoAddMarca = new System.Windows.Forms.Button();
             this.buttonSalvarAddMarca = new System.Windows.Forms.Button();
             this.pictureBoxLogoAddMarca = new System.Windows.Forms.PictureBox();
-            this.openFileDialogLocaLogoAddMarca = new System.Windows.Forms.OpenFileDialog();
-            this.textBoxCaminhoLogaAddMarca = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoAddMarca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,7 +137,7 @@
             this.buttonLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.buttonLogoAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonLogoAddMarca.Location = new System.Drawing.Point(159, 177);
+            this.buttonLogoAddMarca.Location = new System.Drawing.Point(159, 148);
             this.buttonLogoAddMarca.Name = "buttonLogoAddMarca";
             this.buttonLogoAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.buttonLogoAddMarca.Size = new System.Drawing.Size(75, 24);
@@ -163,24 +162,15 @@
             // 
             // pictureBoxLogoAddMarca
             // 
-            this.pictureBoxLogoAddMarca.Location = new System.Drawing.Point(240, 177);
+            this.pictureBoxLogoAddMarca.Location = new System.Drawing.Point(240, 148);
             this.pictureBoxLogoAddMarca.Name = "pictureBoxLogoAddMarca";
             this.pictureBoxLogoAddMarca.Size = new System.Drawing.Size(75, 50);
             this.pictureBoxLogoAddMarca.TabIndex = 4;
             this.pictureBoxLogoAddMarca.TabStop = false;
             // 
-            // openFileDialogLocaLogoAddMarca
+            // openFileDialog1
             // 
-            this.openFileDialogLocaLogoAddMarca.FileName = "openFileDialogLocaLogoAddMarca";
-            // 
-            // textBoxCaminhoLogaAddMarca
-            // 
-            this.textBoxCaminhoLogaAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCaminhoLogaAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxCaminhoLogaAddMarca.Location = new System.Drawing.Point(159, 145);
-            this.textBoxCaminhoLogaAddMarca.Name = "textBoxCaminhoLogaAddMarca";
-            this.textBoxCaminhoLogaAddMarca.Size = new System.Drawing.Size(156, 23);
-            this.textBoxCaminhoLogaAddMarca.TabIndex = 2;
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // TelaAdicionarMarca
             // 
@@ -192,7 +182,6 @@
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBoxCategoriaAddMarca);
             this.Controls.Add(this.comboBoxRelavanciaAddMarca);
-            this.Controls.Add(this.textBoxCaminhoLogaAddMarca);
             this.Controls.Add(this.textBoxNomeAddMarca);
             this.Controls.Add(this.labelCategoriaAddMarca);
             this.Controls.Add(this.buttonSalvarAddMarca);
@@ -224,7 +213,6 @@
         private System.Windows.Forms.Button buttonLogoAddMarca;
         private System.Windows.Forms.Button buttonSalvarAddMarca;
         private System.Windows.Forms.PictureBox pictureBoxLogoAddMarca;
-        private System.Windows.Forms.OpenFileDialog openFileDialogLocaLogoAddMarca;
-        private System.Windows.Forms.TextBox textBoxCaminhoLogaAddMarca;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
