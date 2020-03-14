@@ -35,10 +35,13 @@
             this.labelRelvanciaAddMarca = new System.Windows.Forms.Label();
             this.comboBoxRelavanciaAddMarca = new System.Windows.Forms.ComboBox();
             this.comboBoxCategoriaAddMarca = new System.Windows.Forms.ComboBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonLogoAddMarca
             // 
+            this.buttonLogoAddMarca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.buttonLogoAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -128,12 +131,21 @@
             this.comboBoxCategoriaAddMarca.Size = new System.Drawing.Size(130, 24);
             this.comboBoxCategoriaAddMarca.TabIndex = 3;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(159, 153);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(75, 50);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // TelaAdicionarMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(362, 368);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBoxCategoriaAddMarca);
             this.Controls.Add(this.comboBoxRelavanciaAddMarca);
@@ -149,6 +161,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Adicionar Marcas";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,5 +176,6 @@
         private System.Windows.Forms.Label labelRelvanciaAddMarca;
         private System.Windows.Forms.ComboBox comboBoxRelavanciaAddMarca;
         private System.Windows.Forms.ComboBox comboBoxCategoriaAddMarca;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
