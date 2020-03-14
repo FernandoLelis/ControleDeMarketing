@@ -39,6 +39,7 @@
             this.buttonSalvarAddMarca = new System.Windows.Forms.Button();
             this.pictureBoxLogoAddMarca = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.labelCaminhoLogoAddMarca = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoAddMarca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -152,7 +153,7 @@
             this.buttonSalvarAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalvarAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.buttonSalvarAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(141, 235);
+            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(141, 219);
             this.buttonSalvarAddMarca.Name = "buttonSalvarAddMarca";
             this.buttonSalvarAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.buttonSalvarAddMarca.Size = new System.Drawing.Size(75, 24);
@@ -162,9 +163,10 @@
             // 
             // pictureBoxLogoAddMarca
             // 
-            this.pictureBoxLogoAddMarca.Location = new System.Drawing.Point(240, 148);
+            this.pictureBoxLogoAddMarca.Location = new System.Drawing.Point(240, 135);
             this.pictureBoxLogoAddMarca.Name = "pictureBoxLogoAddMarca";
             this.pictureBoxLogoAddMarca.Size = new System.Drawing.Size(75, 50);
+            this.pictureBoxLogoAddMarca.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxLogoAddMarca.TabIndex = 4;
             this.pictureBoxLogoAddMarca.TabStop = false;
             // 
@@ -172,12 +174,23 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // labelCaminhoLogoAddMarca
+            // 
+            this.labelCaminhoLogoAddMarca.AutoSize = true;
+            this.labelCaminhoLogoAddMarca.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.labelCaminhoLogoAddMarca.Location = new System.Drawing.Point(199, 185);
+            this.labelCaminhoLogoAddMarca.Name = "labelCaminhoLogoAddMarca";
+            this.labelCaminhoLogoAddMarca.Size = new System.Drawing.Size(0, 13);
+            this.labelCaminhoLogoAddMarca.TabIndex = 5;
+            this.labelCaminhoLogoAddMarca.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // TelaAdicionarMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(358, 280);
+            this.Controls.Add(this.labelCaminhoLogoAddMarca);
             this.Controls.Add(this.pictureBoxLogoAddMarca);
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBoxCategoriaAddMarca);
@@ -214,5 +227,6 @@
         private System.Windows.Forms.Button buttonSalvarAddMarca;
         private System.Windows.Forms.PictureBox pictureBoxLogoAddMarca;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label labelCaminhoLogoAddMarca;
     }
 }
