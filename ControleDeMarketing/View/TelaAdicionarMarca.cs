@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControleDeMarketing.Model;
+using ControleDeMarketing.Control;
 
 namespace ControleDeMarketing.View
 {
@@ -24,6 +26,18 @@ namespace ControleDeMarketing.View
                 pictureBoxLogoAddMarca.ImageLocation = openFileDialog1.FileName;
                 pictureBoxLogoAddMarca.Load();
             }
+        }
+
+        private void buttonSalvarAddMarca_Click(object sender, EventArgs e)
+        {
+            Marca.NomeMarca = textBoxNomeAddMarca.Text;
+            Marca.CategoriaMarca = comboBoxCategoriaAddMarca.Text;
+            Marca.RelevanciaMarca = comboBoxRelavanciaAddMarca.Text;
+            Marca.ImagemMarca = Convert.ToByte(pictureBoxLogoAddMarca.ImageLocation);
+            
+            
+            ManipulaMarca manipulaMarca = new ManipulaMarca();
+            manipulaMarca.adicionarMarca();
         }
     }
 }

@@ -160,6 +160,7 @@
             this.buttonSalvarAddMarca.TabIndex = 0;
             this.buttonSalvarAddMarca.Text = "Salvar";
             this.buttonSalvarAddMarca.UseVisualStyleBackColor = true;
+            this.buttonSalvarAddMarca.Click += new System.EventHandler(this.buttonSalvarAddMarca_Click);
             // 
             // pictureBoxLogoAddMarca
             // 
