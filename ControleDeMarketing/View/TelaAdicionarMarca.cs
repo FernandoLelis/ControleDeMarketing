@@ -33,7 +33,7 @@ namespace ControleDeMarketing.View
             Marca.NomeMarca = textBoxNomeAddMarca.Text;
             Marca.CategoriaMarca = comboBoxCategoriaAddMarca.Text;
             Marca.RelevanciaMarca = comboBoxRelavanciaAddMarca.Text;
-            Marca.ImagemMarca = Convert.ToByte(pictureBoxLogoAddMarca.ImageLocation);
+            Marca.ImagemMarca = pictureBoxLogoAddMarca.Image;
             
             
             ManipulaMarca manipulaMarca = new ManipulaMarca();
