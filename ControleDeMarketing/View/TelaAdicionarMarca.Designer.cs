@@ -190,7 +190,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(358, 280);
+            this.ClientSize = new System.Drawing.Size(358, 281);
             this.Controls.Add(this.labelCaminhoLogoAddMarca);
             this.Controls.Add(this.pictureBoxLogoAddMarca);
             this.Controls.Add(this.labelNomeAddMarca);
@@ -208,6 +208,7 @@
             this.MinimumSize = new System.Drawing.Size(374, 319);
             this.Name = "TelaAdicionarMarca";
             this.ShowIcon = false;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Adicionar Marcas";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoAddMarca)).EndInit();

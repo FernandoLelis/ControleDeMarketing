@@ -29,5 +29,11 @@ namespace ControleDeMarketing.View
             TelaAdicionarMarca telaAdicionarMarca = new TelaAdicionarMarca();
             telaAdicionarMarca.ShowDialog();
         }
+
+        private void adicionarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            TelaAdicionarCampanha telaAdicionarCampanha = new TelaAdicionarCampanha();
+            telaAdicionarCampanha.ShowDialog();
+        }
     }
 }
