@@ -21,17 +21,16 @@ namespace ControleDeMarketing.Control
             try
             {
                 cmd.Parameters.AddWithValue("@nomeMarca", Campanha.Marca);
-
-                cmd.Parameters.AddWithValue("@categoriaMarca", Marca.CategoriaMarca);
-                cmd.Parameters.AddWithValue("@imagemMarca", Marca.ImagemMarca);
-                cmd.Parameters.AddWithValue("@relevanciaMarca", Marca.RelevanciaMarca);
-
-                SqlParameter nv = cmd.Parameters.Add("@nomeMarca", SqlDbType.NVarChar);
+                cmd.Parameters.AddWithValue("@midiaCampanha", Campanha.Midia);
+                cmd.Parameters.AddWithValue("@dataCampanha", Campanha.Data);
+                cmd.Parameters.AddWithValue("@descricaoCampanha", Campanha.Descricao);
+                 
+                SqlParameter nv = cmd.Parameters.Add("@idCampanha", SqlDbType.Int);
                 nv.Direction = ParameterDirection.Output;
                 cn.Open();
                 cmd.ExecuteNonQuery();
 
-                MessageBox.Show("Cadastro realizado com sucesso");
+                MessageBox.Show("Campanha adicionada com sucesso");
             }
             catch (Exception)
             {
