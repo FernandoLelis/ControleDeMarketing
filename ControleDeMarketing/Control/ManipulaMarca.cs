@@ -22,7 +22,7 @@ namespace ControleDeMarketing.Control
             {
                 cmd.Parameters.AddWithValue("@categoriaMarca", Marca.CategoriaMarca);
                 cmd.Parameters.AddWithValue("@imagemMarca", Marca.ImagemMarca);
-                cmd.Parameters.AddWithValue("@relevanciaMarca", Marca.RelevanciaMarca);
+                cmd.Parameters.AddWithValue("@relevanciaMarca", SqlDbType.Image);
                
                 SqlParameter nv = cmd.Parameters.Add("@nomeMarca", SqlDbType.NVarChar);
                 nv.Direction = ParameterDirection.Output;

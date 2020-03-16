@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using ControleDeMarketing.Model;
 using ControleDeMarketing.Control;
 
-
 namespace ControleDeMarketing.View
 {
     public partial class TelaAdicionarMarca : Form
@@ -22,8 +21,7 @@ namespace ControleDeMarketing.View
 
         private void buttonLogoAddMarca_Click(object sender, EventArgs e)
         {
-            openFileDialog1.Filter = "*.jpg|*.jpg|*.bmp|*.bmp|*.gif|*.gif|*.png|*.png";
-
+            
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 pictureBoxLogoAddMarca.ImageLocation = openFileDialog1.FileName;
