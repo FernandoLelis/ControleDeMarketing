@@ -30,13 +30,13 @@
         {
             this.labelMarcaAddCampanha = new System.Windows.Forms.Label();
             this.comboBoxMarcaAddCampanha = new System.Windows.Forms.ComboBox();
-            this.comboBoxRelavanciaAddMarca = new System.Windows.Forms.ComboBox();
             this.textBoxMidiaAddCampanha = new System.Windows.Forms.TextBox();
             this.labelMidiaAddCampanha = new System.Windows.Forms.Label();
-            this.labelLogoAddMarca = new System.Windows.Forms.Label();
+            this.labelDercricaoAddCampanha = new System.Windows.Forms.Label();
             this.labelDataAddCampanha = new System.Windows.Forms.Label();
-            this.buttonSalvarAddMarca = new System.Windows.Forms.Button();
+            this.buttonSalvarAddCampanha = new System.Windows.Forms.Button();
             this.dateTimePickerDataAddCampanha = new System.Windows.Forms.DateTimePicker();
+            this.textBoxDescricaoAddCampanha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // labelMarcaAddCampanha
@@ -72,27 +72,6 @@
             this.comboBoxMarcaAddCampanha.Size = new System.Drawing.Size(156, 24);
             this.comboBoxMarcaAddCampanha.TabIndex = 10;
             // 
-            // comboBoxRelavanciaAddMarca
-            // 
-            this.comboBoxRelavanciaAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxRelavanciaAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.comboBoxRelavanciaAddMarca.FormattingEnabled = true;
-            this.comboBoxRelavanciaAddMarca.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"});
-            this.comboBoxRelavanciaAddMarca.Location = new System.Drawing.Point(163, 141);
-            this.comboBoxRelavanciaAddMarca.Name = "comboBoxRelavanciaAddMarca";
-            this.comboBoxRelavanciaAddMarca.Size = new System.Drawing.Size(41, 24);
-            this.comboBoxRelavanciaAddMarca.TabIndex = 11;
-            // 
             // textBoxMidiaAddCampanha
             // 
             this.textBoxMidiaAddCampanha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -113,16 +92,16 @@
             this.labelMidiaAddCampanha.TabIndex = 6;
             this.labelMidiaAddCampanha.Text = "Mídia:";
             // 
-            // labelLogoAddMarca
+            // labelDercricaoAddCampanha
             // 
-            this.labelLogoAddMarca.AutoSize = true;
-            this.labelLogoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLogoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.labelLogoAddMarca.Location = new System.Drawing.Point(40, 144);
-            this.labelLogoAddMarca.Name = "labelLogoAddMarca";
-            this.labelLogoAddMarca.Size = new System.Drawing.Size(44, 17);
-            this.labelLogoAddMarca.TabIndex = 7;
-            this.labelLogoAddMarca.Text = "Logo:";
+            this.labelDercricaoAddCampanha.AutoSize = true;
+            this.labelDercricaoAddCampanha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDercricaoAddCampanha.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelDercricaoAddCampanha.Location = new System.Drawing.Point(40, 144);
+            this.labelDercricaoAddCampanha.Name = "labelDercricaoAddCampanha";
+            this.labelDercricaoAddCampanha.Size = new System.Drawing.Size(75, 17);
+            this.labelDercricaoAddCampanha.TabIndex = 7;
+            this.labelDercricaoAddCampanha.Text = "Descrição:";
             // 
             // labelDataAddCampanha
             // 
@@ -135,19 +114,19 @@
             this.labelDataAddCampanha.TabIndex = 8;
             this.labelDataAddCampanha.Text = "Data:";
             // 
-            // buttonSalvarAddMarca
+            // buttonSalvarAddCampanha
             // 
-            this.buttonSalvarAddMarca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonSalvarAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSalvarAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.buttonSalvarAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(145, 215);
-            this.buttonSalvarAddMarca.Name = "buttonSalvarAddMarca";
-            this.buttonSalvarAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.buttonSalvarAddMarca.Size = new System.Drawing.Size(75, 24);
-            this.buttonSalvarAddMarca.TabIndex = 4;
-            this.buttonSalvarAddMarca.Text = "Salvar";
-            this.buttonSalvarAddMarca.UseVisualStyleBackColor = true;
+            this.buttonSalvarAddCampanha.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonSalvarAddCampanha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSalvarAddCampanha.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.buttonSalvarAddCampanha.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonSalvarAddCampanha.Location = new System.Drawing.Point(145, 224);
+            this.buttonSalvarAddCampanha.Name = "buttonSalvarAddCampanha";
+            this.buttonSalvarAddCampanha.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.buttonSalvarAddCampanha.Size = new System.Drawing.Size(75, 24);
+            this.buttonSalvarAddCampanha.TabIndex = 4;
+            this.buttonSalvarAddCampanha.Text = "Salvar";
+            this.buttonSalvarAddCampanha.UseVisualStyleBackColor = true;
             // 
             // dateTimePickerDataAddCampanha
             // 
@@ -156,10 +135,20 @@
             this.dateTimePickerDataAddCampanha.CustomFormat = "ddMMMMyyyy";
             this.dateTimePickerDataAddCampanha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerDataAddCampanha.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerDataAddCampanha.Location = new System.Drawing.Point(163, 108);
+            this.dateTimePickerDataAddCampanha.Location = new System.Drawing.Point(163, 105);
             this.dateTimePickerDataAddCampanha.Name = "dateTimePickerDataAddCampanha";
             this.dateTimePickerDataAddCampanha.Size = new System.Drawing.Size(156, 23);
             this.dateTimePickerDataAddCampanha.TabIndex = 12;
+            // 
+            // textBoxDescricaoAddCampanha
+            // 
+            this.textBoxDescricaoAddCampanha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxDescricaoAddCampanha.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxDescricaoAddCampanha.Location = new System.Drawing.Point(163, 141);
+            this.textBoxDescricaoAddCampanha.Multiline = true;
+            this.textBoxDescricaoAddCampanha.Name = "textBoxDescricaoAddCampanha";
+            this.textBoxDescricaoAddCampanha.Size = new System.Drawing.Size(156, 62);
+            this.textBoxDescricaoAddCampanha.TabIndex = 9;
             // 
             // TelaAdicionarCampanha
             // 
@@ -170,11 +159,11 @@
             this.Controls.Add(this.dateTimePickerDataAddCampanha);
             this.Controls.Add(this.labelMarcaAddCampanha);
             this.Controls.Add(this.comboBoxMarcaAddCampanha);
-            this.Controls.Add(this.comboBoxRelavanciaAddMarca);
+            this.Controls.Add(this.textBoxDescricaoAddCampanha);
             this.Controls.Add(this.textBoxMidiaAddCampanha);
             this.Controls.Add(this.labelMidiaAddCampanha);
-            this.Controls.Add(this.buttonSalvarAddMarca);
-            this.Controls.Add(this.labelLogoAddMarca);
+            this.Controls.Add(this.buttonSalvarAddCampanha);
+            this.Controls.Add(this.labelDercricaoAddCampanha);
             this.Controls.Add(this.labelDataAddCampanha);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(374, 319);
@@ -194,12 +183,12 @@
 
         private System.Windows.Forms.Label labelMarcaAddCampanha;
         private System.Windows.Forms.ComboBox comboBoxMarcaAddCampanha;
-        private System.Windows.Forms.ComboBox comboBoxRelavanciaAddMarca;
         private System.Windows.Forms.TextBox textBoxMidiaAddCampanha;
         private System.Windows.Forms.Label labelMidiaAddCampanha;
-        private System.Windows.Forms.Label labelLogoAddMarca;
+        private System.Windows.Forms.Label labelDercricaoAddCampanha;
         private System.Windows.Forms.Label labelDataAddCampanha;
-        private System.Windows.Forms.Button buttonSalvarAddMarca;
+        private System.Windows.Forms.Button buttonSalvarAddCampanha;
         private System.Windows.Forms.DateTimePicker dateTimePickerDataAddCampanha;
+        private System.Windows.Forms.TextBox textBoxDescricaoAddCampanha;
     }
 }
