@@ -23,7 +23,7 @@ namespace ControleDeMarketing.View
         {
             Campanha.Marca = comboBoxMarcaAddCampanha.Text;
             Campanha.Midia = textBoxMidiaAddCampanha.Text;
-            Campanha.Data = dateTimePickerDataAddCampanha.MinDate;
+            Campanha.Data = Convert.ToDateTime(dateTimePickerDataAddCampanha.Text);
             Campanha.Descricao = textBoxDescricaoAddCampanha.Text;
 
             ManipulaCampanha manipulaCampanha = new ManipulaCampanha();
@@ -31,6 +31,7 @@ namespace ControleDeMarketing.View
 
             comboBoxMarcaAddCampanha.Text = "";
             textBoxMidiaAddCampanha.Text = "";
+            dateTimePickerDataAddCampanha.Text = "";
             textBoxDescricaoAddCampanha.Text = "";
         }
     }

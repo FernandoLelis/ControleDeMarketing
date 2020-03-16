@@ -10,7 +10,7 @@ namespace ControleDeMarketing.Control
     {
         public static string conectar()
         {
-            return @"D:\Arquivos de Programas\Google\Trabalhos\Projetos CSharp\ControleDeMarketing\ControleDeMarketing\bdControleDeMarketing.mdf";
+            return @"C:\Users\Arte1\Desktop\Controle_Marketing\C-Sharp\ControleDeMarketing\ControleDeMarketing\bdControleDeMarketing.mdf";
         }
     }
 }
