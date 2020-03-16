@@ -36,7 +36,7 @@
             this.labelLogoAddMarca = new System.Windows.Forms.Label();
             this.labelDataAddCampanha = new System.Windows.Forms.Label();
             this.buttonSalvarAddMarca = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerDataAddCampanha = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // labelMarcaAddCampanha
@@ -131,9 +131,9 @@
             this.labelDataAddCampanha.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelDataAddCampanha.Location = new System.Drawing.Point(40, 108);
             this.labelDataAddCampanha.Name = "labelDataAddCampanha";
-            this.labelDataAddCampanha.Size = new System.Drawing.Size(82, 17);
+            this.labelDataAddCampanha.Size = new System.Drawing.Size(42, 17);
             this.labelDataAddCampanha.TabIndex = 8;
-            this.labelDataAddCampanha.Text = "Relevância:";
+            this.labelDataAddCampanha.Text = "Data:";
             // 
             // buttonSalvarAddMarca
             // 
@@ -149,15 +149,17 @@
             this.buttonSalvarAddMarca.Text = "Salvar";
             this.buttonSalvarAddMarca.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dateTimePickerDataAddCampanha
             // 
-            this.dateTimePicker1.CalendarForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(163, 108);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(156, 23);
-            this.dateTimePicker1.TabIndex = 12;
+            this.dateTimePickerDataAddCampanha.CalendarForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dateTimePickerDataAddCampanha.CalendarTitleForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dateTimePickerDataAddCampanha.CustomFormat = "ddMMMMyyyy";
+            this.dateTimePickerDataAddCampanha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerDataAddCampanha.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerDataAddCampanha.Location = new System.Drawing.Point(163, 108);
+            this.dateTimePickerDataAddCampanha.Name = "dateTimePickerDataAddCampanha";
+            this.dateTimePickerDataAddCampanha.Size = new System.Drawing.Size(156, 23);
+            this.dateTimePickerDataAddCampanha.TabIndex = 12;
             // 
             // TelaAdicionarCampanha
             // 
@@ -165,7 +167,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(358, 281);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTimePickerDataAddCampanha);
             this.Controls.Add(this.labelMarcaAddCampanha);
             this.Controls.Add(this.comboBoxMarcaAddCampanha);
             this.Controls.Add(this.comboBoxRelavanciaAddMarca);
@@ -198,6 +200,6 @@
         private System.Windows.Forms.Label labelLogoAddMarca;
         private System.Windows.Forms.Label labelDataAddCampanha;
         private System.Windows.Forms.Button buttonSalvarAddMarca;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePickerDataAddCampanha;
     }
 }
