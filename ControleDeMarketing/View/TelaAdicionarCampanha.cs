@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControleDeMarketing.Control;
+using ControleDeMarketing.Model;
 
 namespace ControleDeMarketing.View
 {
@@ -15,6 +17,21 @@ namespace ControleDeMarketing.View
         public TelaAdicionarCampanha()
         {
             InitializeComponent();
+        }
+
+        private void buttonSalvarAddCampanha_Click(object sender, EventArgs e)
+        {
+            Campanha.Marca = comboBoxMarcaAddCampanha.Text;
+            Campanha.Midia = textBoxMidiaAddCampanha.Text;
+            Campanha.Data = dateTimePickerDataAddCampanha.MinDate;
+            Campanha.Descricao = textBoxDescricaoAddCampanha.Text;
+
+            ManipulaCampanha manipulaCampanha = new ManipulaCampanha();
+            manipulaCampanha.adicionarCampanha();
+
+            comboBoxMarcaAddCampanha.Text = "";
+            textBoxMidiaAddCampanha.Text = "";
+            textBoxDescricaoAddCampanha.Text = "";
         }
     }
 }

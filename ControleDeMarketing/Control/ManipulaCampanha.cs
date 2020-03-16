@@ -12,7 +12,7 @@ namespace ControleDeMarketing.Control
 {
     class ManipulaCampanha
     {
-        public void adicionarMarca()
+        public void adicionarCampanha()
         {
             SqlConnection cn = new SqlConnection(Conexao.conectar());
             SqlCommand cmd = new SqlCommand("pAdicionarCampanha", cn);

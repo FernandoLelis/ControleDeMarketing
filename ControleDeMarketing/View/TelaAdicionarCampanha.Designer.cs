@@ -127,6 +127,7 @@
             this.buttonSalvarAddCampanha.TabIndex = 4;
             this.buttonSalvarAddCampanha.Text = "Salvar";
             this.buttonSalvarAddCampanha.UseVisualStyleBackColor = true;
+            this.buttonSalvarAddCampanha.Click += new System.EventHandler(this.buttonSalvarAddCampanha_Click);
             // 
             // dateTimePickerDataAddCampanha
             // 
