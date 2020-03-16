@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ControleDeMarketing.Model;
 using ControleDeMarketing.Control;
+using System.Drawing;
 
 namespace ControleDeMarketing.View
 {
