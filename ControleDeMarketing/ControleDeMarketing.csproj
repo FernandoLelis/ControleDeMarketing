@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Control\Conexao.cs" />
+    <Compile Include="Control\ManipulaCampanha.cs" />
     <Compile Include="Control\ManipulaMarca.cs" />
     <Compile Include="Model\Campanha.cs" />
     <Compile Include="Model\Marca.cs" />
