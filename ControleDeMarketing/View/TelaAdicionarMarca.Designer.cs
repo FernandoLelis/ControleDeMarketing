@@ -40,6 +40,7 @@
             this.pictureBoxLogoAddMarca = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.labelCaminhoLogoAddMarca = new System.Windows.Forms.Label();
+            this.textBoxCaminhoAddMarca = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoAddMarca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -153,7 +154,7 @@
             this.buttonSalvarAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalvarAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.buttonSalvarAddMarca.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(141, 219);
+            this.buttonSalvarAddMarca.Location = new System.Drawing.Point(141, 228);
             this.buttonSalvarAddMarca.Name = "buttonSalvarAddMarca";
             this.buttonSalvarAddMarca.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.buttonSalvarAddMarca.Size = new System.Drawing.Size(75, 24);
@@ -185,6 +186,16 @@
             this.labelCaminhoLogoAddMarca.TabIndex = 5;
             this.labelCaminhoLogoAddMarca.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // textBoxCaminhoAddMarca
+            // 
+            this.textBoxCaminhoAddMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCaminhoAddMarca.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxCaminhoAddMarca.Location = new System.Drawing.Point(36, 190);
+            this.textBoxCaminhoAddMarca.Name = "textBoxCaminhoAddMarca";
+            this.textBoxCaminhoAddMarca.Size = new System.Drawing.Size(279, 23);
+            this.textBoxCaminhoAddMarca.TabIndex = 2;
+            this.textBoxCaminhoAddMarca.Text = "Caminho da Imagem:";
+            // 
             // TelaAdicionarMarca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,6 +207,7 @@
             this.Controls.Add(this.labelNomeAddMarca);
             this.Controls.Add(this.comboBoxCategoriaAddMarca);
             this.Controls.Add(this.comboBoxRelavanciaAddMarca);
+            this.Controls.Add(this.textBoxCaminhoAddMarca);
             this.Controls.Add(this.textBoxNomeAddMarca);
             this.Controls.Add(this.labelCategoriaAddMarca);
             this.Controls.Add(this.buttonSalvarAddMarca);
@@ -230,5 +242,6 @@
         private System.Windows.Forms.PictureBox pictureBoxLogoAddMarca;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label labelCaminhoLogoAddMarca;
+        private System.Windows.Forms.TextBox textBoxCaminhoAddMarca;
     }
 }

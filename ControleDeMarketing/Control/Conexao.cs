@@ -10,7 +10,7 @@ namespace ControleDeMarketing.Control
     {
         public static string conectar()
         {
-            return @"C:\Users\Arte1\Desktop\Controle_Marketing\C-Sharp\ControleDeMarketing\ControleDeMarketing\bdControleDeMarketing.mdf";
+            return @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Arte1\Desktop\Controle_Marketing\C-Sharp\ControleDeMarketing\ControleDeMarketing\bdControleDeMarketing.mdf;Integrated Security=True";
         }
     }
 }

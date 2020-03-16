@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using ControleDeMarketing.Model;
 using System.Windows.Forms;
 
+
 namespace ControleDeMarketing.Control
 {
     class ManipulaCampanha
@@ -17,7 +18,8 @@ namespace ControleDeMarketing.Control
             SqlConnection cn = new SqlConnection(Conexao.conectar());
             SqlCommand cmd = new SqlCommand("pAdicionarCampanha", cn);
             cmd.CommandType = CommandType.StoredProcedure;
-
+            
+            
             try
             {
                 cmd.Parameters.AddWithValue("@nomeMarca", Campanha.Marca);
