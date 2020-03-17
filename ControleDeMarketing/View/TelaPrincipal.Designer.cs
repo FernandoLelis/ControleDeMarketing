@@ -147,7 +147,7 @@
             this.adicionarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.adicionarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("adicionarToolStripMenuItem1.Image")));
             this.adicionarToolStripMenuItem1.Name = "adicionarToolStripMenuItem1";
-            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.adicionarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
             this.adicionarToolStripMenuItem1.Text = "Adicionar";
             this.adicionarToolStripMenuItem1.Click += new System.EventHandler(this.adicionarToolStripMenuItem1_Click);
             // 
@@ -156,7 +156,7 @@
             this.editarToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.editarToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("editarToolStripMenuItem1.Image")));
             this.editarToolStripMenuItem1.Name = "editarToolStripMenuItem1";
-            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.editarToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
             this.editarToolStripMenuItem1.Text = "Editar";
             // 
             // pequisarToolStripMenuItem
@@ -164,7 +164,7 @@
             this.pequisarToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pequisarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pequisarToolStripMenuItem.Image")));
             this.pequisarToolStripMenuItem.Name = "pequisarToolStripMenuItem";
-            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pequisarToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.pequisarToolStripMenuItem.Text = "Pequisar";
             // 
             // deletarToolStripMenuItem2
@@ -172,7 +172,7 @@
             this.deletarToolStripMenuItem2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.deletarToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("deletarToolStripMenuItem2.Image")));
             this.deletarToolStripMenuItem2.Name = "deletarToolStripMenuItem2";
-            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.deletarToolStripMenuItem2.Size = new System.Drawing.Size(135, 22);
             this.deletarToolStripMenuItem2.Text = "Deletar";
             // 
             // marcasToolStripMenuItem
@@ -663,6 +663,7 @@
             this.Name = "TelaPrincipal";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Controle de Marketing";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

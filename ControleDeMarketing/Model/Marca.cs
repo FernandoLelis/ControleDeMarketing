@@ -16,13 +16,11 @@ namespace ControleDeMarketing.Model
         private static int idMarca;
         private static string nomeMarca;
         private static string categoriaMarca;
-        private static Image imagemMarca;
         private static string relevanciaMarca;
 
         public static int IdMarca { get => idMarca; set => idMarca = value; }
         public static string NomeMarca { get => nomeMarca; set => nomeMarca = value; }
         public static string CategoriaMarca { get => categoriaMarca; set => categoriaMarca = value; }
-        public static Image ImagemMarca { get => imagemMarca; set => imagemMarca = value; }
         public static string RelevanciaMarca { get => relevanciaMarca; set => relevanciaMarca = value; }
     }
 }
