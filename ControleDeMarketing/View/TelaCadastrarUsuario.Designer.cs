@@ -155,6 +155,7 @@
             this.buttonCadastrarCadastro.TabIndex = 11;
             this.buttonCadastrarCadastro.Text = "Cadastrar";
             this.buttonCadastrarCadastro.UseVisualStyleBackColor = true;
+            this.buttonCadastrarCadastro.Click += new System.EventHandler(this.buttonCadastrarCadastro_Click);
             // 
             // TelaCadastrarUsuario
             // 

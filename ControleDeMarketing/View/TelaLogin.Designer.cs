@@ -115,6 +115,7 @@
             this.buttonEntrarLogin.TabIndex = 5;
             this.buttonEntrarLogin.Text = "Entrar";
             this.buttonEntrarLogin.UseVisualStyleBackColor = true;
+            this.buttonEntrarLogin.Click += new System.EventHandler(this.buttonEntrarLogin_Click);
             // 
             // labelCadastraLogin
             // 
@@ -126,6 +127,7 @@
             this.labelCadastraLogin.Size = new System.Drawing.Size(85, 17);
             this.labelCadastraLogin.TabIndex = 3;
             this.labelCadastraLogin.Text = "Cadastre-se";
+            this.labelCadastraLogin.Click += new System.EventHandler(this.labelCadastraLogin_Click);
             // 
             // TelaLogin
             // 
