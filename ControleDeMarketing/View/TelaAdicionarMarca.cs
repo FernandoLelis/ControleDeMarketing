@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ControleDeMarketing.Model;
 using ControleDeMarketing.Control;
+using System.Drawing.Imaging;
 
 namespace ControleDeMarketing.View
 {
@@ -26,7 +27,7 @@ namespace ControleDeMarketing.View
             {
                 pictureBoxLogoAddMarca.ImageLocation = openFileDialog1.FileName;
                 pictureBoxLogoAddMarca.Load();
-
+                
 
             }
         }
