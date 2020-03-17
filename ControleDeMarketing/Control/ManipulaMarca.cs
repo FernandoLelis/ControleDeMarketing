@@ -20,11 +20,12 @@ namespace ControleDeMarketing.Control
 
             try
             {
+                cmd.Parameters.AddWithValue("@nomeMarca", Marca.ImagemMarca);
                 cmd.Parameters.AddWithValue("@categoriaMarca", Marca.CategoriaMarca);
                 cmd.Parameters.AddWithValue("@imagemMarca", Marca.ImagemMarca);
-                cmd.Parameters.AddWithValue("@relevanciaMarca", SqlDbType.Image);
+                cmd.Parameters.AddWithValue("@relevanciaMarca", Marca.ImagemMarca);
                
-                SqlParameter nv = cmd.Parameters.Add("@nomeMarca", SqlDbType.NVarChar);
+                SqlParameter nv = cmd.Parameters.Add("@idMarca", SqlDbType.Int);
                 nv.Direction = ParameterDirection.Output;
                 cn.Open();
                 cmd.ExecuteNonQuery();
