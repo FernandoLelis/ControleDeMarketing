@@ -21,15 +21,17 @@ namespace ControleDeMarketing.View
 
         private void labelCadastraLogin_Click(object sender, EventArgs e)
         {
+            this.Hide();
             TelaCadastrarUsuario telaCadastrarUsuario = new TelaCadastrarUsuario();
+            telaCadastrarUsuario.Closed += (s, args) => this.Close();
             telaCadastrarUsuario.ShowDialog();
-                
+          
         }
 
         private void buttonEntrarLogin_Click(object sender, EventArgs e)
         {
             Usuario.NomeUsuario = textBoxNomeLogin.Text;
-            Usuario.SenhaUsuario = Convert.ToInt32(textBoxSenhaLogin.Text);
+            Usuario.SenhaUsuario = textBoxSenhaLogin.Text;
 
             ManipulaUsuario manipulaUsuario = new ManipulaUsuario();
             manipulaUsuario.loginUsuario();

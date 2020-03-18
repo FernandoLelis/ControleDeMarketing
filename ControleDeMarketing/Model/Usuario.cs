@@ -12,12 +12,12 @@ namespace ControleDeMarketing.Model
         private static string nomeUsuario;
         private static string departamentoUsuario;
         private static string emailUsuario;
-        private static int senhaUsuario;
+        private static string senhaUsuario;
 
         public static int IdUsuario { get => idUsuario; set => idUsuario = value; }
         public static string NomeUsuario { get => nomeUsuario; set => nomeUsuario = value; }
         public static string DepartamentoUsuario { get => departamentoUsuario; set => departamentoUsuario = value; }
         public static string EmailUsuario { get => emailUsuario; set => emailUsuario = value; }
-        public static int SenhaUsuario { get => senhaUsuario; set => senhaUsuario = value; }
+        public static string SenhaUsuario { get => senhaUsuario; set => senhaUsuario = value; }
     }
 }
