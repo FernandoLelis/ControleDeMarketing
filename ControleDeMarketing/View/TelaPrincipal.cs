@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControleDeMarketing.Model;
 
 
 namespace ControleDeMarketing.View
@@ -16,6 +17,9 @@ namespace ControleDeMarketing.View
         public TelaPrincipal()
         {
             InitializeComponent();
+
+            labelNomeUsuario.Text = Usuario.NomeUsuario;
+            labelDepartamentoUsuario.Text = Usuario.DepartamentoUsuario;
         }
 
         
