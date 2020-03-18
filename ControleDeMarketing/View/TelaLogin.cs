@@ -30,11 +30,14 @@ namespace ControleDeMarketing.View
 
         private void buttonEntrarLogin_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Usuario.NomeUsuario = textBoxNomeLogin.Text;
-            Usuario.SenhaUsuario = textBoxSenhaLogin.Text;
+            Usuario.SenhaUsuario = Convert.ToString(textBoxSenhaLogin.Text);
 
             ManipulaUsuario manipulaUsuario = new ManipulaUsuario();
             manipulaUsuario.loginUsuario();
+
+                     
         }
     }
 }

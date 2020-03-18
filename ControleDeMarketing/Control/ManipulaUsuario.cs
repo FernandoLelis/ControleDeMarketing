@@ -25,7 +25,9 @@ namespace ControleDeMarketing.Control
                 cmd.Parameters.AddWithValue("@departamentoUsuario", Usuario.DepartamentoUsuario);
                 cmd.Parameters.AddWithValue("@emailUsuario", Usuario.EmailUsuario);
                 cmd.Parameters.AddWithValue("@senhaUsuario", Usuario.SenhaUsuario);
-               
+
+                SqlParameter nv = cmd.Parameters.Add("@idUsuario", SqlDbType.Int);
+                nv.Direction = ParameterDirection.Output;
                 cn.Open();
                 cmd.ExecuteNonQuery();
 
@@ -55,6 +57,8 @@ namespace ControleDeMarketing.Control
             {
                 TelaPrincipal telaPrincipal = new TelaPrincipal();
                 telaPrincipal.ShowDialog();
+
+                Application.Exit();                
             }
             else
             {

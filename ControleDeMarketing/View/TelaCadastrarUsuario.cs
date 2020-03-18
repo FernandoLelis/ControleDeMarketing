@@ -25,7 +25,7 @@ namespace ControleDeMarketing.View
             Usuario.NomeUsuario = textBoxNomeCadastro.Text;
             Usuario.DepartamentoUsuario = comboBoxDepartamentoCadastro.Text;
             Usuario.EmailUsuario = textBoxEmailCadastro.Text;
-            Usuario.SenhaUsuario = textBoxSenhaCadastro.Text;
+            Usuario.SenhaUsuario = Convert.ToString(textBoxSenhaCadastro.Text);
 
             ManipulaUsuario manipulaUsuario = new ManipulaUsuario();
             manipulaUsuario.cadastraUsuario();
