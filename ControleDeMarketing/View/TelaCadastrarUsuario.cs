@@ -25,15 +25,18 @@ namespace ControleDeMarketing.View
             Usuario.NomeUsuario = textBoxNomeCadastro.Text;
             Usuario.DepartamentoUsuario = comboBoxDepartamentoCadastro.Text;
             Usuario.EmailUsuario = textBoxEmailCadastro.Text;
-            Usuario.SenhaUsuario = Convert.ToString(textBoxSenhaCadastro.Text);
+            Usuario.SenhaUsuario = textBoxSenhaCadastro.Text;
 
             ManipulaUsuario manipulaUsuario = new ManipulaUsuario();
             manipulaUsuario.cadastraUsuario();
 
-            textBoxNomeCadastro.Text = "";
-            comboBoxDepartamentoCadastro.Text = "";
-            textBoxEmailCadastro.Text = "";
-            textBoxSenhaCadastro.Text = "";            
+            
+            this.Hide();
+            TelaLogin telaLogin = new TelaLogin();
+            telaLogin.ShowDialog();
+
+            Application.Exit();
+
         }
     }
 }

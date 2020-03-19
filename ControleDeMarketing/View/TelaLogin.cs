@@ -32,7 +32,7 @@ namespace ControleDeMarketing.View
         {
             this.Hide();
             Usuario.NomeUsuario = textBoxNomeLogin.Text;
-            Usuario.SenhaUsuario = Convert.ToString(textBoxSenhaLogin.Text);
+            Usuario.SenhaUsuario = textBoxSenhaLogin.Text;
 
             ManipulaUsuario manipulaUsuario = new ManipulaUsuario();
             manipulaUsuario.loginUsuario();
