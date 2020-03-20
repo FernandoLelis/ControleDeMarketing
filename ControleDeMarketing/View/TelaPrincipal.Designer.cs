@@ -59,7 +59,7 @@
             this.labelPorcentagemMesAtual = new System.Windows.Forms.Label();
             this.labelCloncuido = new System.Windows.Forms.Label();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.Marca = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Marca = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AcoesPorMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Realizadas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Concluido = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -286,7 +286,7 @@
             // 
             this.labelNomeUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelNomeUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNomeUsuario.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.labelNomeUsuario.ForeColor = System.Drawing.Color.MediumSeaGreen;
             this.labelNomeUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.labelNomeUsuario.Location = new System.Drawing.Point(694, 17);
             this.labelNomeUsuario.Name = "labelNomeUsuario";
@@ -378,11 +378,12 @@
             // 
             this.Marca.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.NullValue = null;
             this.Marca.DefaultCellStyle = dataGridViewCellStyle1;
             this.Marca.Frozen = true;
             this.Marca.HeaderText = "Marca";
             this.Marca.Name = "Marca";
+            this.Marca.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Marca.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.Marca.Width = 127;
             // 
             // AcoesPorMes
@@ -715,10 +716,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label labelMarcaDashboard;
         private System.Windows.Forms.GroupBox groupBoxUltimosPostFundo;
-        private System.Windows.Forms.DataGridViewImageColumn Marca;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AcoesPorMes;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Realizadas;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Concluido;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
@@ -745,5 +742,9 @@
         private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configuraçõesToolStripMenuItem;
         private System.Windows.Forms.Label labelDepartamentoUsuario;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Marca;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AcoesPorMes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Realizadas;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Concluido;
     }
 }
